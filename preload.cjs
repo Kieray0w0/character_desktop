@@ -22,6 +22,10 @@ ipcRenderer.on('desktop:event', (_ipcEvent, event) => {
 // threshold, then moveEnd on pointerup/cancel. No renderer coordinates cross IPC.
 contextBridge.exposeInMainWorld('desktop', Object.freeze({
   getState: () => ipcRenderer.invoke('desktop:getState'),
+  setTheme: value => {
+    if (!['classic', 'archive'].includes(value)) return Promise.reject(new TypeError('Unknown interface theme'));
+    return ipcRenderer.invoke('desktop:setTheme', value);
+  },
   setTopmost: value => {
     if (typeof value !== 'boolean') return Promise.reject(new TypeError('topmost must be boolean'));
     return ipcRenderer.invoke('desktop:setTopmost', value);

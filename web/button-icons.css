@@ -1,0 +1,16 @@
+/* Text stays available to IPC and assistive technology, but only the icon is painted. */
+html body button.icon-button {
+  display: inline-flex; align-items: center; justify-content: center;
+  flex: 0 0 auto; width: 32px; height: 32px; min-width: 32px;
+  padding: 0; font-size: 0; line-height: 0; letter-spacing: 0;
+}
+html body button.icon-button::before {
+  content: ""; display: block; flex: 0 0 18px; width: 18px; height: 18px;
+  background: currentColor; mask: var(--button-icon) center / contain no-repeat;
+  -webkit-mask: var(--button-icon) center / contain no-repeat;
+  pointer-events: none;
+}
+html body #capture-toggle.icon-button { width: 40px; height: 36px; }
+html body #voice-stop.icon-button,
+html body #capture-stop.icon-button { width: 28px; height: 28px; min-width: 28px; font-size: 0; }
+html body #quit.icon-button { display: flex; margin: 12px auto 0; }

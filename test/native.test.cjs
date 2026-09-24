@@ -178,11 +178,11 @@ test('preferences round-trip atomically and discard invalid or oversized persist
   const directory = temporaryDirectory(t);
   const file = path.join(directory, 'data', 'desktop-state.json');
   assert.deepEqual(native.readPreferences(file), native.DEFAULTS);
-  const expected = { topmost: false, scale: 125, x: -100, y: 12 };
+  const expected = { topmost: false, scale: 125, theme: 'classic', x: -100, y: 12 };
   native.writePreferences(file, { ...expected, secret: 'not persisted' });
   assert.deepEqual(native.readPreferences(file), expected);
   native.writePreferences(file, { scale: 1, topmost: 'true', x: Infinity, y: 0 });
-  assert.deepEqual(native.readPreferences(file), { topmost: true, scale: 70 });
+  assert.deepEqual(native.readPreferences(file), { topmost: true, scale: 70, theme: 'classic' });
   assert.deepEqual(fs.readdirSync(path.dirname(file)), ['desktop-state.json']);
   for (const content of ['{', 'null', '[]', '"string"', '{"scale":"130","x":1e999,"y":0}', ' '.repeat(4097)]) {
     fs.writeFileSync(file, content);
@@ -475,6 +475,31 @@ test('tray buffer is a CRC-valid RGBA PNG rather than SVG', () => {
   assert.deepEqual(types, ['IHDR', 'IDAT', 'IEND']);
 });
 
+test('application icon contains matching RGBA PNGs at every Windows size', () => {
+  const ico = fs.readFileSync(path.join(__dirname, '..', 'assets', 'app.ico'));
+  assert.equal(ico.readUInt16LE(0), 0);
+  assert.equal(ico.readUInt16LE(2), 1);
+  const sizes = [16, 20, 24, 32, 48, 64, 128, 256];
+  assert.equal(ico.readUInt16LE(4), sizes.length);
+  for (const [index, size] of sizes.entries()) {
+    const entry = 6 + index * 16;
+    assert.equal(ico[entry] || 256, size);
+    assert.equal(ico[entry + 1] || 256, size);
+    assert.equal(ico.readUInt16LE(entry + 6), 32);
+    const length = ico.readUInt32LE(entry + 8), start = ico.readUInt32LE(entry + 12);
+    const png = ico.subarray(start, start + length);
+    assert.deepEqual(png, native.createTrayPNG(size));
+    assert.equal(png.readUInt32BE(16), size);
+    assert.equal(png.readUInt32BE(20), size);
+    const raw = inflateSync(png.subarray(41, 41 + png.readUInt32BE(33)));
+    const alpha = [];
+    for (let y = 0; y < size; y++) for (let x = 0; x < size; x++) alpha.push(raw[y * (1 + size * 4) + 4 + x * 4]);
+    assert.ok(alpha.includes(0) && alpha.includes(255) && alpha.some(value => value > 0 && value < 255));
+  }
+  assert.deepEqual(fs.readFileSync(path.join(__dirname, '..', 'assets', 'tray.png')), native.createTrayPNG());
+  for (const invalid of [0, 15, 257, NaN, 32.5]) assert.throws(() => native.createTrayPNG(invalid), /Icon size/);
+});
+
 // Exercise the real main/preload entry points without Electron or a production
 // permission bypass. Native dialogs, displays and timers are test doubles only.
 async function bootShell(t, directory, { readyBeforeLoad = false } = {}) {
@@ -630,6 +655,80 @@ async function bootShell(t, directory, { readyBeforeLoad = false } = {}) {
     })),
   };
 }
+
+test('interface theme validates, broadcasts to both windows and persists across restart', async t => {
+  for (const theme of [undefined, null, {}, 'invalid', '__proto__']) assert.equal(native.sanitizePreferences({ theme }).theme, 'classic');
+  assert.equal(native.sanitizePreferences({ theme: 'archive' }).theme, 'archive');
+  const shell = await bootShell(t);
+  assert.equal(shell.invoke('getState').theme, 'classic');
+  assert.throws(() => shell.invoke('setTheme', 'archive'), /Untrusted/);
+  await shell.invoke('openSettings');
+  const settings = shell.windows.at(-1);
+  const bounds = { ...shell.window.bounds };
+  const eventStart = shell.window.events.length;
+  assert.equal(shell.settingsInvoke('setTheme', 'archive').theme, 'archive');
+  assert.equal(shell.window.events.at(-1).state.theme, 'archive');
+  assert.equal(settings.events.at(-1).state.theme, 'archive');
+  assert.deepEqual(shell.window.events.slice(eventStart).map(event => event.type), ['state']);
+  assert.deepEqual(shell.window.bounds, bounds);
+  assert.equal(shell.dialogs.length, 0);
+  const handler = shell.handlers.get('desktop:setTheme');
+  assert.throws(() => handler({ sender: settings.webContents, senderFrame: { url: settings.webContents.mainFrame.url } }, 'classic'), /Untrusted/);
+  for (const bad of [null, {}, 1, 'invalid']) assert.throws(() => shell.settingsInvoke('setTheme', bad), /Unknown interface theme/);
+  shell.invoke('setScale', 120);
+  const file = path.join(shell.directory, 'desktop-state.json');
+  assert.equal(native.readPreferences(file).theme, 'archive');
+  shell.app.quit();
+  const restarted = await bootShell(t, shell.directory);
+  assert.equal(restarted.invoke('getState').theme, 'archive');
+  await restarted.invoke('openSettings');
+  restarted.settingsInvoke('setTheme', 'classic');
+  assert.equal(native.readPreferences(file).theme, 'classic');
+  const before = restarted.window.events.length;
+  t.mock.method(fs, 'writeFileSync', () => { throw new Error('Disk full'); });
+  assert.throws(() => restarted.settingsInvoke('setTheme', 'archive'), /Disk full/);
+  assert.equal(restarted.invoke('getState').theme, 'classic');
+  assert.equal(restarted.window.events.length, before);
+  t.mock.restoreAll();
+});
+
+test('theme renderer applies shared state without reloading models and recovers failed saves', async () => {
+  const source = fs.readFileSync(path.join(__dirname, '..', 'web', 'theme.js'), 'utf8');
+  const dataset = {};
+  const picker = { disabled: true, value: 'classic', addEventListener(_name, callback) { this.change = callback; } };
+  const status = {};
+  const initial = Promise.withResolvers();
+  let listener;
+  let fail = false;
+  const desktop = {
+    onEvent(callback) { listener = callback; }, getState: () => initial.promise,
+    async setTheme(theme) { if (fail) throw new Error('Disk full'); return { theme }; },
+  };
+  vm.runInNewContext(source, { window: { desktop }, document: {
+    documentElement: { dataset }, getElementById: id => id === 'interface-theme' ? picker : status,
+  } });
+  listener({ type: 'state', state: { theme: 'archive' } });
+  initial.resolve({ theme: 'classic' });
+  await Promise.resolve();
+  assert.equal(dataset.theme, 'archive');
+  picker.value = 'classic';
+  await picker.change();
+  assert.equal(dataset.theme, 'classic');
+  assert.equal(picker.disabled, false);
+  fail = true;
+  picker.value = 'archive';
+  await picker.change();
+  assert.equal(dataset.theme, 'classic');
+  assert.equal(picker.value, 'classic');
+  assert.equal(status.hidden, false);
+  listener({ type: 'state', state: { theme: 'invalid' } });
+  assert.equal(dataset.theme, 'classic');
+  vm.runInNewContext(source, { window: { desktop }, document: {
+    documentElement: { dataset }, getElementById: () => null,
+  } });
+  listener({ type: 'state', state: { theme: 'archive' } });
+  assert.equal(dataset.theme, 'archive');
+});
 
 test('website link opens only the fixed HTTPS site from the trusted settings frame', async t => {
   const shell = await bootShell(t);
@@ -1296,7 +1395,7 @@ test('main persists desktop-state.json on debounced move and restores it on rest
   shell.invoke('setTopmost', false);
   shell.window.setPosition(-1100, -50);
   [...shell.timers].find(timer => timer.delay === 200).callback();
-  const expected = { topmost: false, scale: 125, x: -1100, y: -50 };
+  const expected = { topmost: false, scale: 125, theme: 'classic', x: -1100, y: -50 };
   assert.deepEqual(native.readPreferences(file), expected);
   shell.app.quit();
   assert.deepEqual(JSON.parse(fs.readFileSync(file, 'utf8')), expected);
@@ -1415,7 +1514,10 @@ test('preload exposes only the frozen desktop contract and removable event liste
   });
   assert.equal(Object.isFrozen(api), true);
   assert.deepEqual(Object.keys(api).sort(), ['getState', 'hide', 'moveEnd', 'moveStart', 'onEvent', 'quit', 'setScale', 'setTopmost',
-    'resizeStart', 'resizeEnd', 'openSettings', 'closeSettings', 'getSettings', 'publishSettings', 'settingsCommand', 'publishPreview', 'openWebsite'].sort());
+    'resizeStart', 'resizeEnd', 'openSettings', 'closeSettings', 'getSettings', 'publishSettings', 'settingsCommand', 'publishPreview', 'openWebsite', 'setTheme'].sort());
+  await api.setTheme('archive');
+  assert.deepEqual(calls.at(-1), ['desktop:setTheme', 'archive']);
+  await assert.rejects(api.setTheme('invalid'), /Unknown interface theme/);
   await api.openWebsite('https://untrusted.example/');
   assert.deepEqual(calls.at(-1), ['desktop:openWebsite']);
   await api.getState();

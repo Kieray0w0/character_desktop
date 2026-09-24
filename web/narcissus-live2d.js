@@ -334,6 +334,7 @@ window.createNarcissusLive2D = async ({ container, skin = {
       ["ParamAngleX", "yaw", -30, 30, 0.7, true],
       ["ParamAngleY", "pitch", -25, 25, 0.7, true],
       ["ParamAngleZ", "roll", -25, 25, 0.7, true],
+      ["ParamBodyAngleZ", "bodyRoll", -12, 12, 0.45, true],
       ["ParamEyeLOpen", sharedEyes ? "eyeOpen" : skin.id === "306605" ? "eyeOpenR" : "eyeOpenL", 0, 1],
       [spathodea ? "ParamEyeLOpen2" : "ParamEyeROpen", skin.id === "306605" ? "eyeOpenL" : "eyeOpenR", 0, 1],
       ["ParamMouthOpenY", "jawOpen", 0, 1],
@@ -343,6 +344,16 @@ window.createNarcissusLive2D = async ({ container, skin = {
     if (skin.id === "315701" || skin.id === "315702") {
       mapping.push(["ParamBrowLY", "browL", -1, 1], ["ParamBrowRY", "browR", -1, 1]);
     }
+    // 310504 only: authored L raises with positive rotation, R with negative.
+    // Small relative offsets preserve the idle pose; no stretching/hand channels.
+    const armMapping = [
+      ["ParamArmLxuanzhuan", "armLiftL", -45, 45, .2, true],
+      ["ParamArmRxuanzhuan", "armLiftR", -45, 45, -.2, true],
+      ["ParamLSArmxuanzhuan", "elbowBendL", -60, 60, .15, true],
+      ["ParamRSArmxuanzhuan", "elbowBendR", -60, 60, -.15, true],
+    ];
+    const supportsArmCapture = skin.id === "310504" && armMapping.every(([id]) => parameterIndices.has(id));
+    if (supportsArmCapture) mapping.push(...armMapping);
     const captureChannels = mapping.filter(([id]) => parameterIndices.has(id)).map(([id, key, low, high, gain = 1, offset = false]) => {
       const index = parameterIndices.get(id);
       return { index, key, low, high, gain, offset, min: parameterData.minimumValues[index], max: parameterData.maximumValues[index],
@@ -447,6 +458,7 @@ window.createNarcissusLive2D = async ({ container, skin = {
       resize,
       actions: Object.freeze(actions.map(([name]) => name)),
       supportsMotionCapture: true,
+      supportsArmCapture,
       get busy() { return active() && (busy || captureActive); },
       setVisible(value) {
         if (!active()) return;

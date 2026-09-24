@@ -6,9 +6,11 @@
   "description": "Offline desktop characters with local camera face capture",
   "main": "main.cjs",
   "scripts": {
+    "icons": "node scripts/generate-icons.cjs",
+    "prepackage": "npm run icons",
     "start": "node scripts/start.cjs",
     "test": "node --test test/*.test.cjs",
-    "package": "electron-packager . CharacterDesktop --platform=win32 --arch=x64 --out=dist --overwrite --asar \"--ignore=^/(dist|test|scripts)(/|$)\" \"--ignore=^/(README\\.md|start_desktop\\.bat|package_desktop\\.bat)$\""
+    "package": "electron-packager . CharacterDesktop --platform=win32 --arch=x64 --out=dist --overwrite --asar --icon=assets/app.ico \"--ignore=^/(dist|test|scripts)(/|$)\" \"--ignore=^/(README\\.md|start_desktop\\.bat|package_desktop\\.bat)$\""
   },
   "devDependencies": {
     "electron": "44.4.3",

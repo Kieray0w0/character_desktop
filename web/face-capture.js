@@ -1,9 +1,10 @@
 (() => {
   const base = new URL('face-tracking/', document.currentScript.src);
-  window.createFaceCapture = ({ video, onState, onSample }) => {
+  window.createFaceCapture = ({ video, onState, onSample, getBodyEnabled = () => false, getArmsEnabled = () => false, onBodyState = () => {} }) => {
     let active = false, generation = 0, stream, landmarker, frame = 0, timeout;
     let neutral = null, lastTime = -1, lastFrame = -Infinity, lastFace = 0;
     let stateKey = '';
+    let bodyTracker = null;
     const report = (state, message) => {
       const key = `${state}:${message}`;
       if (key === stateKey) return;
@@ -23,6 +24,9 @@
       video.hidden = true;
       const previousLandmarker = landmarker;
       landmarker = null;
+      bodyTracker?.close();
+      bodyTracker = null;
+      onBodyState('上半身跟随已关闭。');
       try { previousLandmarker?.close(); } catch { /* Camera tracks are already stopped. */ }
       neutral = null;
       onSample(null);
@@ -56,7 +60,7 @@
         await video.play();
         if (!current()) return;
         report('loading', '正在加载本地人脸识别模型…');
-        const [{ FaceLandmarker, FilesetResolver }, { faceSample }] = await Promise.all([
+        const [{ FaceLandmarker, PoseLandmarker, FilesetResolver }, { faceSample }] = await Promise.all([
           import(new URL('vendor/vision_bundle.mjs', base).href),
           import(new URL('pose.mjs', base).href),
         ]);
@@ -70,6 +74,27 @@
         });
         if (!current()) { tracker.close(); return; }
         landmarker = tracker;
+        if (getBodyEnabled()) {
+          onBodyState('正在加载本地身体模型…');
+          try {
+            const { loadBodyTracker } = await import(new URL('../body-motion.mjs', base).href);
+            if (!current()) return;
+            const body = await loadBodyTracker({
+              armsEnabled: Boolean(getArmsEnabled()),
+              current, report: message => { if (current()) onBodyState(message); },
+              create: () => PoseLandmarker.createFromOptions(fileset, {
+                baseOptions: { modelAssetPath: new URL('../body-pose.task', base).href, delegate: 'CPU' },
+                runningMode: 'VIDEO', numPoses: 1, minPoseDetectionConfidence: .6,
+                minPosePresenceConfidence: .6, minTrackingConfidence: .6, outputSegmentationMasks: false,
+              }),
+            });
+            if (!current()) { body?.close(); return; }
+            bodyTracker = body;
+          } catch {
+            if (current()) onBodyState('身体模型不可用，已回退为面部动捕。');
+          }
+        } else onBodyState('仅面部动捕；上半身跟随未开启。');
+        if (!current()) return;
         clearTimeout(timeout);
         neutral = null;
         lastTime = -1;
@@ -83,13 +108,16 @@
             if (video.readyState >= 2 && video.currentTime !== lastTime && now - lastFrame >= 80) {
               lastTime = video.currentTime;
               lastFrame = now;
-              const sample = faceSample(tracker.detectForVideo(video, now), neutral);
+              const result = tracker.detectForVideo(video, now);
+              const sample = faceSample(result, neutral);
               if (sample) {
                 neutral ||= sample.rotation;
                 lastFace = now;
-                onSample(sample.values);
+                const body = bodyTracker?.sample(video, now, result.faceLandmarks?.[0]?.[1]);
+                onSample({ ...sample.values, ...body });
                 report('tracking', '动捕中：头部、眨眼、张嘴；微笑和眉毛依皮肤支持。');
               } else {
+                bodyTracker?.clear();
                 onSample(null);
                 report('searching', '未检测到人脸，角色正回到中立姿态。');
               }
@@ -122,8 +150,10 @@
       calibrate() {
         if (!active || !landmarker) return;
         neutral = null;
+        bodyTracker?.calibrate();
         onSample(null);
-        report('searching', '请正对摄像头，正在重新校准头部朝向…');
+        if (bodyTracker) onBodyState('请让双肩及需要跟随的手臂入镜，静止片刻重新校准基准…');
+        report('searching', bodyTracker ? '请正对摄像头，正在重新校准头部和身体姿态…' : '请正对摄像头，正在重新校准头部朝向…');
       },
     };
   };

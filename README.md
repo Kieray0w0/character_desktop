@@ -1,97 +1,194 @@
 # Character Desktop
 
-A standalone Windows desktop companion with local Live2D/Spine rendering and
-camera face capture. The `html` and `html_online` websites are not used at runtime.
+独立的 Windows 桌面角色程序，支持透明窗口、角色拖动、语音互动和本地摄像头面部动捕，以及实验性的身体侧倾与指定皮肤手臂跟随。
+包含 5 个角色、10 套皮肤，使用 Live2D / Spine 渲染。模型、MP3 和动捕资源已包含在仓库中，**运行时不依赖 `html` 或 `html_online` 文件夹**。
 
-## Start
+## 快速开始
 
-Double-click `start_desktop.bat`. When a packaged build exists, it starts
-`dist/CharacterDesktop-win32-x64/CharacterDesktop.exe`; otherwise it starts the
-development app. A packaged build needs neither Node.js nor Python. Keep the
-entire packaged folder together, not just its executable.
+### 从源码启动
 
-For development, install Node.js 22.12 or newer, run `npm ci`, then `npm start`.
-If npm blocks dependency install scripts and the Electron executable is missing,
-run `node node_modules/electron/install.js` once. The batch launcher also handles
-this case. The initial dependency installation requires the internet. The app
-itself runs offline.
+适合在另一台电脑上克隆本仓库后使用，或修改代码后调试。
 
-## Controls
+1. 准备 Windows 10/11 64 位电脑，安装 [Git](https://git-scm.com/downloads/win) 和 [Node.js](https://nodejs.org/) 22.12 或更新版本，建议使用仍受支持的 LTS 版本。
+2. 安装后重新打开 PowerShell，执行以下命令。每条命令成功后再执行下一条。
 
-- Hold and drag the character to move its desktop window. A movement threshold
-  distinguishes dragging from a single-click interaction.
-- The bottom name/control bar and active camera badge hide after five seconds.
-  Right-click the character to toggle them: hidden controls appear for five
-  seconds, and another right-click hides them immediately. This also works while
-  Settings is open and does not close it. Hovering or left-clicking does not
-  reveal controls. Hiding the badge does not stop capture.
-  The tray Settings command is always available.
-- Open **Settings** to select a character/skin, resize, change speed, toggle
-  always-on-top, or enable camera capture.
-- The **Kieray0w0.github.io** link at the bottom of Settings opens https://Kieray0w0.github.io/
-  in your default browser. This online page requires internet access; the desktop
-  character continues running independently.
-- Settings opens in a separate window next to the character when space permits.
-  Drag its top title bar to move it anywhere; changing character size does not
-  move or scale this window. Its position is kept while the app is running.
-- Right-click the character to reveal four corner resize handles. Hold any
-  corner to resize proportionally within 70--150%, anchored at the opposite
-  corner where screen space permits. Size updates live in Settings and is saved
-  when you release. Arrow keys on a focused handle adjust size in 5% steps.
-- Settings scroll independently of the fixed header, so **Collapse** stays
-  accessible at every scroll position. Closing settings leaves the bars hidden.
-  Collapsing or closing Settings hides only that window, not the character or
-  active face capture. Reopen it using the character control bar or system tray.
-- The window position, size and always-on-top preference persist between runs.
-  Character/skin, playback and auto-interaction choices last for the current run.
-- Automatic minute-by-minute interaction is off initially. Voice is allowed for
-  manual interactions; it can be disabled in settings or stopped in subtitles.
-- **Hide** sends the character to the system tray and releases the camera and
-  audio. Double-click its tray icon to restore it. Right-click the tray for
-  settings, visibility, always-on-top, position reset and exit.
-- Closing the window hides it; **Quit** in settings or the tray exits fully.
-- Moving focus to another app does not interrupt face capture. Native hide,
-  minimize, sleep, skin switching and exit stop capture; it never auto-restarts.
+```powershell
+git clone https://github.com/Kieray0w0/character_desktop.git
+cd character_desktop
+npm ci
+npm start
+```
 
-## Camera
+`npm ci` 根据锁文件安装依赖并下载 Electron，首次安装需要联网。安装完成后，日常在项目目录运行 `npm start` 即可，无需每次安装，也不必先打包。
+角色展示、语音和动捕在资源就绪后可离线使用；设置底部的线上网址仍需要网络。
 
-The first face detected establishes a neutral head orientation. Face the camera
-and use **Calibrate** to reset it. Nine Live2D skins support head orientation,
-blinking and jaw opening. Smile and eyebrow support varies by skin. Charlie's
-Spine model is available as a desktop character but does not support capture.
-There is no full-body, hand or finger tracking.
+也可以在安装 Node.js 后双击 `start_desktop.bat`：没有打包版时，它会使用源码启动，并在 Electron 缺失时尝试安装依赖。
 
-Every camera request requires approval in a native permission dialog. Processing
-uses the bundled MediaPipe model locally: no recording, upload or microphone
-access. Thirty seconds without a face stops capture. Real-camera quality depends
-on lighting, camera angle, hardware and each model's authored parameter limits.
-Only the character window owns camera access. While Settings is visible, its
-preview receives small in-memory JPEG frames over local Electron IPC. These
-frames are not saved; hiding Settings or stopping capture clears the preview,
-and stale frames from an earlier visibility session are rejected.
+### 打包成可直接运行的程序
 
-## Build And Verify
+先完成上面的克隆和 `npm ci`，然后在项目目录执行：
+
+```powershell
+npm run package
+.\start_desktop.bat
+```
+
+首次打包可能需要联网下载 Electron 运行文件。输出位置：
 
 ```text
+dist/CharacterDesktop-win32-x64/CharacterDesktop.exe
+```
+
+将**整个 `CharacterDesktop-win32-x64` 文件夹**复制到另一台 Windows x64 电脑，双击其中的 `CharacterDesktop.exe` 即可。接收电脑不需要 Git、Node.js 或 Python。
+不要只复制 `.exe`，旁边的 DLL、`resources` 和其他文件同样必需。
+
+仓库不包含 `dist`，所以 GitHub 源码 ZIP 或 `git clone` 得到的不是打包程序。
+如果要分发可直接运行的版本，建议将上述整个文件夹压缩后上传到 GitHub Releases，而不是提交到 Git。分发前请确认下方列出的第三方许可。
+
+## 更新与启动方式
+
+**`start_desktop.bat` 优先打开已有的打包版**，只有不存在打包版时才运行源码。
+修改代码或拉取更新后，双击它可能仍然运行旧版本。
+
+更新前先从托盘菜单选择 **Quit / 退出**，确认本地修改已保存或提交，然后执行：
+
+```powershell
+git pull --ff-only
+npm ci
+```
+
+- 直接运行最新源码：执行 `npm start`。
+- 继续使用打包版：执行 `npm run package`，成功后再双击 `start_desktop.bat`。
+- `package_desktop.bat` 是打包命令的双击入口，使用前仍需安装依赖。
+
+## 操作说明
+
+操作按钮使用线条图标，鼠标悬停可显示原文字提示；键盘和屏幕阅读器仍可识别操作名称。设置底部的网址保留文字。
+
+| 操作 | 效果 |
+| --- | --- |
+| 单击角色 | 随机互动，可播放动作、语音和字幕 |
+| 按住角色拖动 | 移动窗口，拖动不会误触单击互动 |
+| 右键角色 | 显示或隐藏名称栏、动捕提示和四角角标；显示后默认 5 秒自动隐藏 |
+| 拖动任意角标 | 等比例缩放，范围 70%–150%，与设置滑块同步，松开后保存 |
+| 聚焦角标后按方向键 | 每次调整大小 5% |
+| 打开设置 | 选择角色、皮肤、大小、速度、置顶、语音、自动互动和动捕 |
+| 拖动设置顶部标题栏 | 单独移动设置窗口，不带动或缩放角色 |
+| 点击设置中的“收起” | 只隐藏设置窗口，不停止角色或动捕；按钮固定在顶部 |
+| 点击设置底部网址 | 在默认浏览器打开 [Kieray0w0.github.io](https://Kieray0w0.github.io/) |
+| 隐藏角色 | 收到系统托盘，同时停止摄像头和语音 |
+| 双击托盘图标 | 恢复角色显示 |
+| 右键托盘图标 | 打开设置、显示/隐藏、调整置顶、重置位置或退出 |
+| Quit / 退出桌面程序 | 完全结束程序，而非仅隐藏窗口 |
+
+窗口位置、大小和置顶选项会跨启动保存。角色、皮肤、播放及自动互动选项只在本次运行中保留。
+每分钟自动互动默认关闭，手动互动的语音默认允许，可在设置中关闭或在字幕中停止。
+设置打开时仍可右键角色切换外围控件，不会关闭设置或停止动捕。
+
+## 界面皮肤
+
+界面外观可在设置顶部的“界面皮肤”中切换：**青苔手札 / Moss Notes**采用浅绿配色，**暮色档案 / Dusk Archive**参考 UTTU 的深色面板、暖米色衬线文字和铜橙细边框。
+皮肤覆盖设置窗口、按钮、字幕、名称栏、动捕提示和缩放角标。选择会自动保存并同步到两个窗口，不会重新加载角色或中断语音、动捕；与角色本身的皮肤选项独立。
+两款均可离线使用，默认使用青苔手札。系统托盘菜单由 Windows 绘制，不跟随界面皮肤。
+
+## 摄像头动捕与隐私
+
+在设置中开启动捕，并在原生权限弹窗中允许摄像头访问。首次识别到人脸时会建立正面基准，也可面对摄像头点击“校准正面姿态”重新校准。
+
+- 9 套 Live2D 皮肤支持头部朝向、眨眼和张嘴；微笑、眉毛效果取决于皮肤参数。
+- 开启动捕前可勾选“上半身跟随（实验）”，让双肩完整入镜，支持九套 Live2D 的身体侧倾；默认关闭，不跨启动保存。
+- 第二阶段仅纸信圈儿“原子时报晓”（310504）可进一步勾选“手臂跟随（实验）”。启动后让肩、肘、腕入镜，以舒适姿势静止约半秒建立基准，再轻缓抬臂或弯肘。它是相对基准的小幅跟随，不是 1:1 复现姿势；手臂选项同样默认关闭。
+- 身体和手臂复用同一个识别器，约每秒 6 次，增加 CPU 占用。遮挡或出画的部位回到中立，身体模型加载或识别失败时回退为面部动捕。校准按钮同时重置头部、身体及手臂基准；选项在动捕期间锁定。
+- 手臂目前只按画面中的二维角度估算，朝向摄像头、交叉或遮挡时可能拒绝样本或不准确。已做合成姿态测试和真实模型渲染检查，尚未完成真人摄像头验证。
+- 夏利使用 Spine，可以正常显示和互动，但暂不支持动捕。当前不支持全身、手掌或手指动捕，其他皮肤未启用手臂跟随。
+- 使用随程序提供的 MediaPipe 模型在本地处理，不上传画面、不录像、不使用麦克风。每次开启都会请求授权。
+- 连续 30 秒未检测到人脸会停止动捕。效果取决于光线、摄像头角度、硬件和模型本身的变形范围。
+- 切换到其他应用或收起设置不会中断动捕；隐藏/最小化角色、系统休眠、切换皮肤或退出会停止，之后不会自动重开。
+- 设置预览通过本地 Electron IPC 接收内存中的小尺寸 JPEG 帧，不写入磁盘；隐藏设置或停止动捕后清除预览。
+
+## 目录与开发命令
+
+| 路径 | 用途 | 是否提交到 Git |
+| --- | --- | --- |
+| `main.cjs`、`native.cjs`、`preload.cjs` | 桌面窗口、托盘、安全边界和进程通信 | 是 |
+| `web/` | 角色界面、模型、语音、渲染库和动捕资源 | 是 |
+| `assets/`、`scripts/`、`test/` | 托盘资源、启动/资源导入脚本及自动测试 | 是 |
+| `package.json`、`package-lock.json` | 项目命令和固定版本的依赖清单 | 是 |
+| `resource-manifest.json` | 导入资源清单及 SHA-256 校验值 | 是 |
+| `desktop-resources.json` | 桌面专用代码差异和新增身体模型的校验值、来源 | 是 |
+| `node_modules/` | `npm ci` 安装的工具和依赖，可以重新下载 | 否 |
+| `dist/` | `npm run package` 生成的可运行程序 | 否 |
+
+在项目根目录运行：
+
+```powershell
+# 自动测试
 npm test
+
+# 离线核对资源完整性与哈希
 node scripts/import-assets.cjs --verify-only
+
+# 生成 Windows x64 便携版
 npm run package
 ```
 
-`npm run package` creates a portable Windows x64 app under `dist/`. Packaging is
-local and unsigned; redistribution may require signing and separate asset
-licenses. See `THIRD_PARTY.md`. This is not an installer and does not add startup
-entries, services, firewall rules or desktop shortcuts.
+桌面版已对导入的面部驱动和 Live2D 渲染器做了独立修改。为防止覆盖这些修改，资源导入命令目前会拒绝执行；普通用户无需下载网站仓库。
+维护者更新资源时须显式合并，并检查 `resource-manifest.json` 的原始基线和 `desktop-resources.json` 的桌面差异。审核代码后可运行 `node scripts/record-desktop-resources.cjs` 更新差异校验，再执行离线校验与测试，不能靠更新校验值掩盖未知资源变动。
 
-`web/` includes a snapshot of the complete model, MP3 and face-tracking assets.
-To explicitly refresh that snapshot from the sibling source website, run
-`node scripts/import-assets.cjs --source ../html`, then rebuild. This import is
-not part of startup; verification works without access to the website folder.
-`resource-manifest.json` records copied resources and SHA-256 checksums.
+身体及手臂参数调查和后续计划见 [BODY_TRACKING.md](BODY_TRACKING.md)。运行 `node scripts/audit-body-parameters.cjs` 可检查九套模型的身体侧倾网格变化；`node scripts/audit-arm-parameters.cjs` 检查 310504 的四个手臂参数，`node test/arm-model-preview.cjs` 提供无摄像头的手动渲染预览。
 
-The Electron renderer is sandboxed, has no Node.js access, and talks to a small
-validated preload API. A token-protected loopback server handles local resources;
-it binds only to `127.0.0.1` on an ephemeral port and shuts down with the program.
-External renderer requests and navigation are blocked. No browser or separately
-started Python server is required. Small transparent margins still belong to the
-window; this version does not implement per-pixel desktop click-through.
+`.gitattributes` 保留原始文件字节和换行符，避免 Git 自动转换后造成资源哈希不一致。
+
+## 常见问题
+
+### PowerShell 找不到 node、npm 或 git
+
+确认已安装所需程序，关闭并重新打开 PowerShell，然后分别检查 `node --version`、`npm --version` 和 `git --version`。打包版用户不需要这些工具。
+
+### PowerShell 提示不能运行 npm.ps1
+
+可使用 `npm.cmd`，不必修改系统执行策略。例如：
+
+```powershell
+npm.cmd ci
+npm.cmd start
+```
+
+### Electron 未正确安装，或找不到 electron.exe
+
+先确认 `npm ci` 成功。如果依赖安装脚本被阻止，再执行：
+
+```powershell
+node node_modules/electron/install.js
+npm start
+```
+
+依赖安装或打包出现下载错误时，请检查网络、代理和对 npm / Electron 下载源的访问情况，再重试。不要关闭证书校验或安全软件来绕过错误。
+
+### 打包出现 EPERM，提示无法删除 DLL
+
+通常是旧程序仍在运行。请通过托盘 **Quit / 退出** 完全退出，再重新打包；仅隐藏角色或收起设置不会结束进程。
+
+### 更新后界面没有变化
+
+`start_desktop.bat` 会优先启动旧 `dist`。使用 `npm start` 查看源码版本，或重新打包后再打开。
+
+### 摄像头无法开启，或某个角色不能动捕
+
+检查 Windows 摄像头隐私设置及其他应用是否占用摄像头，并允许本程序的权限请求。夏利暂不支持动捕，请切换到 Live2D 角色。问题解决后，需要手动重新开启。
+
+### 角色周围的透明区域仍会挡住鼠标
+
+这是当前版本的限制：透明边缘仍属于窗口，尚未实现按像素穿透桌面点击。
+
+## 安全与第三方许可
+
+Electron 渲染进程启用沙箱，不直接访问 Node.js，只通过受校验的 preload 接口通信。
+资源服务仅监听 `127.0.0.1` 的随机端口并校验令牌，随程序退出关闭，不需要额外启动浏览器或 Python 服务。
+渲染进程的外部请求和导航被阻止；设置中的固定网址通过系统默认浏览器单独打开。
+
+当前打包结果是未签名的 Windows x64 便携程序，不是安装器，不会添加开机启动项、系统服务、防火墙规则或桌面快捷方式。
+
+角色模型、贴图、动画、语音和台词属于《重返未来：1999》及其权利人，资源来自 [UTTU](https://uttu.merui.net/)。
+**下载到文件或保留署名不代表获得再分发授权。** Live2D Cubism Core、Spine 和动捕模型也有各自的许可要求；动捕模型的专门许可尚未核实。
+公开发布源码资源或打包程序前，请阅读 [THIRD_PARTY.md](THIRD_PARTY.md) 并确认所需授权。

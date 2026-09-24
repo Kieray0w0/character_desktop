@@ -60,12 +60,17 @@
 
   const capture = window.createFaceCapture({
     video: $('camera-preview'),
+    getBodyEnabled: () => $('body-follow').checked,
+    getArmsEnabled: () => $('body-follow').checked && $('arm-follow').checked && Boolean(renderer?.supportsArmCapture),
+    onBodyState: message => { if ($('body-status').textContent !== message) $('body-status').textContent = message; },
     onSample: values => renderer?.updateMotionCapture?.(values),
     onState: ({ active, state, message }) => {
       if (active) stopVoice();
       renderer?.setMotionCapture?.(active);
       $('capture-toggle').textContent = active ? '关闭摄像头动捕' : '开启摄像头动捕';
       $('capture-toggle').setAttribute('aria-pressed', String(active));
+      $('body-follow').disabled = active || !renderer?.supportsMotionCapture;
+      $('arm-follow').disabled = active || !$('body-follow').checked || !renderer?.supportsArmCapture;
       $('capture-status').textContent = message.replace('请在浏览器地址栏允许后重试。', '请再次开启，并在权限弹窗中选择允许。');
       $('capture-status').dataset.state = state;
       $('capture-badge').hidden = !active;
@@ -80,6 +85,9 @@
 
   function report(message) { $('model-status').textContent = message; }
   function available() {
+    $('body-follow').disabled = capture.active || !visible || !renderer?.supportsMotionCapture;
+    $('arm-follow').disabled = capture.active || !visible || !$('body-follow').checked || !renderer?.supportsArmCapture;
+    if (!renderer?.supportsArmCapture || !$('body-follow').checked) $('arm-follow').checked = false;
     $('capture-toggle').disabled = !visible || !renderer?.supportsMotionCapture;
     if (!renderer) $('capture-status').textContent = '请等待角色加载。';
     else if (!renderer.supportsMotionCapture) $('capture-status').textContent = '夏利的 Spine 模型暂不支持摄像头动捕。';
@@ -365,6 +373,7 @@
   });
   $('capture-stop').addEventListener('click', () => capture.stop());
   $('calibrate').addEventListener('click', () => capture.calibrate());
+  $('body-follow').addEventListener('change', () => { available(); publishSettings(); });
   $('character-select').replaceChildren(...catalog.map(entry => new Option(`${entry.zh} / ${entry.en}`, entry.id)));
   $('character-select').addEventListener('change', chooseCharacter);
   $('skin-select').addEventListener('change', chooseSkin);
@@ -375,7 +384,7 @@
   function publishSettings() {
     const controls = {};
     for (const id of ['character-select', 'skin-select', 'speed', 'size', 'topmost', 'voice-enabled', 'auto-interact',
-      'capture-toggle', 'capture-status', 'calibrate', 'model-status', 'retry', 'speed-value', 'size-value']) {
+      'capture-toggle', 'capture-status', 'body-follow', 'arm-follow', 'body-status', 'calibrate', 'model-status', 'retry', 'speed-value', 'size-value']) {
       const element = $(id);
       const control = { disabled: Boolean(element.disabled), hidden: element.hidden };
       if (element instanceof HTMLInputElement || element instanceof HTMLSelectElement) control.value = element.value;

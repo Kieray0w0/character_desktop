@@ -50,7 +50,7 @@ let permissionPending = false;
 const mutedBySwitch = app.commandLine.hasSwitch('mute-audio');
 
 function alive() { return win && !win.isDestroyed(); }
-function state() { return { topmost: preferences.topmost, scale: preferences.scale, hidden: !visible }; }
+function state() { return { topmost: preferences.topmost, scale: preferences.scale, theme: preferences.theme, hidden: !visible }; }
 function send(event) {
   if (alive() && loaded && !win.webContents.isDestroyed()) win.webContents.send('desktop:event', event);
 }
@@ -131,9 +131,9 @@ async function openSettings() {
       x: Math.round(Math.max(area.x, Math.min(x, area.x + area.width - width))),
       y: Math.round(Math.max(area.y, Math.min(character.y, area.y + area.height - height))),
       width, height, minWidth: Math.min(280, area.width), minHeight: Math.min(360, area.height),
-      show: false, frame: false, transparent: false, backgroundColor: '#f8f9f1',
+      show: false, frame: false, transparent: false, backgroundColor: preferences.theme === 'archive' ? '#212121' : '#f8f9f1',
       resizable: true, maximizable: false, fullscreenable: false, autoHideMenuBar: true,
-      title: 'Character Desktop Settings', webPreferences: webPreferences(),
+      title: 'Character Desktop Settings', icon: path.join(__dirname, 'assets', 'app.ico'), webPreferences: webPreferences(),
     });
     settingsWin = window;
     const url = `${server.baseURL}settings.html`;
@@ -352,6 +352,14 @@ function installIPC() {
     return callback(...args);
   });
   handle('getState', () => state(), 'both');
+  handle('setTheme', value => {
+    if (!['classic', 'archive'].includes(value)) throw new TypeError('Unknown interface theme');
+    // Persist before broadcasting so failed writes do not claim a saved selection.
+    writePreferences(preferenceFile, { ...preferences, theme: value });
+    preferences.theme = value;
+    publishState(false);
+    return state();
+  }, 'settings');
   handle('setTopmost', value => {
     if (typeof value !== 'boolean') throw new TypeError('topmost must be boolean');
     return setTopmost(value);
@@ -441,6 +449,7 @@ async function start() {
     resizable: false, maximizable: false, fullscreenable: false, skipTaskbar: true,
     alwaysOnTop: preferences.topmost, autoHideMenuBar: true, hasShadow: false,
     title: 'Character Desktop',
+    icon: path.join(__dirname, 'assets', 'app.ico'),
     webPreferences: webPreferences(),
   });
   guardNavigation(win, server.indexURL);

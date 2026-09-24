@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>角色设置</title>
   <link rel="stylesheet" href="desktop.css">
+  <link rel="stylesheet" href="themes.css">
+  <link rel="stylesheet" href="button-icons.css">
+  <script src="button-icons.js" defer></script>
+  <script src="theme.js" defer></script>
   <script src="cute/characters.js" defer></script>
   <script src="settings.js" defer></script>
 </head>
@@ -13,6 +17,15 @@
     <header title="按住标题栏拖动设置窗口"><div><span class="eyebrow">YOUR LITTLE STUDIO</span><h1>桌面角色</h1></div><button id="settings-close" type="button" aria-label="收起设置窗口">收起</button></header>
     <div id="settings-content">
       <p class="intro">拖动顶部标题栏移动此窗口，不会带动角色。右键角色可显示四角缩放手柄，按住任意一角等比例调整大小。</p>
+      <section class="theme-picker" aria-label="界面外观">
+        <label for="interface-theme">界面皮肤 <span>APPEARANCE</span></label>
+        <select id="interface-theme" aria-describedby="theme-description" disabled>
+          <option value="classic">青苔手札 / Moss Notes</option>
+          <option value="archive">暮色档案 / Dusk Archive</option>
+        </select>
+        <p id="theme-description" class="hint">切换窗口、按钮和字幕样式，不改变角色皮肤。自动保存，下次启动沿用。</p>
+        <p id="theme-status" class="hint" role="status" hidden></p>
+      </section>
       <fieldset id="model-controls" disabled>
         <label for="character-select">角色 <span>CHARACTER</span></label>
         <select id="character-select"></select>
@@ -29,6 +42,11 @@
         <div class="separator"></div>
         <div class="capture-heading"><h2>摄像头动捕</h2><span class="local-tag">本地处理</span></div>
         <p class="hint">头部转动、眨眼、张嘴。微笑与眉毛依皮肤支持；不是全身动捕。</p>
+        <label class="check"><input id="body-follow" type="checkbox" disabled>上半身跟随（实验）</label>
+        <p class="hint">开启动捕前选择。双肩完整入镜，支持身体侧倾。会增加运算负担。</p>
+        <label class="check"><input id="arm-follow" type="checkbox" disabled>手臂跟随（实验）</label>
+        <p class="hint">仅纸信圈儿「原子时报晓」支持；需先勾选上半身跟随。肩、肘、腕入镜，保持舒适姿势片刻再轻缓活动。小幅相对跟随，不支持手指。</p>
+        <p id="body-status" class="hint" role="status">仅面部动捕；可选择上半身跟随。</p>
         <button id="capture-toggle" class="primary" type="button" aria-pressed="false" aria-describedby="capture-status" disabled>开启摄像头动捕</button>
         <p id="capture-status" class="hint" role="status">等待角色状态…</p>
         <img id="camera-preview" alt="摄像头镜像预览" hidden>

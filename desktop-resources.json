@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "overrides": [
+    {
+      "path": "face-capture.js",
+      "bytes": 7651,
+      "sha256": "8b8ae681f8a08f61949805bd92d609359d413fd2ac5284ba009ff78d80cc0c1d",
+      "baseSha256": "591c56f7042e2921cd12042e626e4ee27f6ae128f477e9879e0bb6010b515aa3",
+      "reason": "Desktop-only optional shoulder and 310504 arm tracking; preserve original website import provenance."
+    },
+    {
+      "path": "narcissus-live2d.js",
+      "bytes": 26071,
+      "sha256": "daf31d68a841b54e4f50b5dd7ce0f4ee8421d3f854fae9dbe929229e986b860c",
+      "baseSha256": "143890fd733c2289333405cafe103aca88eeaad6612ece296f55a64e002f5225",
+      "reason": "Desktop-only optional shoulder and 310504 arm tracking; preserve original website import provenance."
+    }
+  ],
+  "additions": [
+    {
+      "path": "body-pose.task",
+      "bytes": 5777746,
+      "sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a",
+      "source": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task",
+      "license": "NOASSERTION: model-specific license not verified; do not infer rights from the runtime license."
+    }
+  ]
+}

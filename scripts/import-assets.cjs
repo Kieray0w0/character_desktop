@@ -261,7 +261,7 @@ function auditOutput(allowed) {
       const relative = prefix + item.name;
       if (item.isSymbolicLink()) throw new Error(`Output symlink/junction: ${relative}`);
       // Frontend files are owned by the application, never by the importer.
-      if (!prefix && (['index.html', 'desktop.js', 'settings.html', 'settings.js'].includes(item.name) || /\.css$/i.test(item.name))) continue;
+      if (!prefix && (['index.html', 'desktop.js', 'settings.html', 'settings.js', 'theme.js', 'button-icons.js', 'body-motion.mjs'].includes(item.name) || /\.css$/i.test(item.name))) continue;
       if (forbidden(relative)) throw new Error(`Forbidden output: ${relative}`);
       if (item.isDirectory()) walk(path.join(directory, item.name), `${relative}/`);
       else if (!allowed.has(relative)) throw new Error(`Unmanaged runtime file (not removed): ${relative}`);
@@ -277,27 +277,39 @@ function verify() {
   assert.equal(manifest.output, 'web');
   assert.deepEqual(manifest.counts, EXPECTED);
   const imported = plan(OUT, true); // This path never accesses the original source.
+  const desktop = JSON.parse(fs.readFileSync(checkedPath(APP, 'desktop-resources.json')));
+  assert.equal(desktop.schemaVersion, 1);
+  assert.deepEqual(desktop.overrides.map(entry => entry.path).sort(), ['face-capture.js', 'narcissus-live2d.js']);
+  assert.deepEqual(desktop.additions.map(entry => entry.path), ['body-pose.task']);
+  const overrides = new Map(desktop.overrides.map(entry => [entry.path, entry]));
+  for (const entry of [...desktop.overrides, ...desktop.additions]) {
+    const data = fs.readFileSync(checkedPath(OUT, entry.path));
+    assert.equal(data.length, entry.bytes, `Desktop size mismatch: ${entry.path}`);
+    assert.equal(sha(data), entry.sha256, `Desktop SHA mismatch: ${entry.path}`);
+  }
   assert.deepEqual(manifest.files.map(entry => entry.path), [...imported.files.keys()]);
   let bytes = 0;
   for (const entry of manifest.files) {
     relativePath(entry.source);
     assert.match(entry.sourceSha256, /^[a-f0-9]{64}$/);
     const data = fs.readFileSync(checkedPath(OUT, entry.path));
-    assert.equal(data.length, entry.bytes, `Size mismatch: ${entry.path}`);
-    assert.equal(sha(data), entry.sha256, `SHA mismatch: ${entry.path}`);
+    const override = overrides.get(entry.path);
+    if (override) assert.equal(override.baseSha256, entry.sha256, `Desktop baseline mismatch: ${entry.path}`);
+    assert.equal(data.length, (override || entry).bytes, `Size mismatch: ${entry.path}`);
+    assert.equal(sha(data), (override || entry).sha256, `SHA mismatch: ${entry.path}`);
     assert.equal(sha(data), imported.files.get(entry.path).entry.sha256, `Normalization mismatch: ${entry.path}`);
     if (entry.transform === 'copy') {
       assert.equal(entry.sourceSha256, entry.sha256, `Source SHA mismatch: ${entry.path}`);
       assert.equal(entry.sourceBytes, entry.bytes);
     }
-    bytes += data.length;
+    bytes += entry.bytes;
   }
   assert.equal(bytes, manifest.totalBytes);
   const attribution = fs.readFileSync(checkedPath(APP, 'THIRD_PARTY.md'));
   assert.equal(sha(attribution), manifest.attribution.sha256);
   assert.equal(attribution.length, manifest.attribution.bytes);
-  auditOutput(new Set(imported.files.keys()));
-  console.log(`Verified offline: ${manifest.files.length} resources, ${bytes} bytes (${(bytes / 1048576).toFixed(6)} MiB); 9 Live2D, 1 Spine, 9 MP3-only manifests, 261 unique MP3; no forbidden/unmanaged runtime files.`);
+  auditOutput(new Set([...imported.files.keys(), ...desktop.additions.map(entry => entry.path)]));
+  console.log(`Verified offline: ${manifest.files.length} baseline resources, ${desktop.overrides.length} desktop overrides and ${desktop.additions.length} pinned pose model; 9 Live2D, 1 Spine, 261 MP3; no forbidden/unmanaged runtime files.`);
   return manifest;
 }
 
@@ -317,6 +329,9 @@ function main() {
   }
   if (verifyOnly && dryRun) throw new Error('Choose --verify-only or --dry-run');
   if (verifyOnly) { verify(); return; }
+  if (fs.existsSync(path.join(APP, 'desktop-resources.json'))) {
+    throw new Error('Desktop tracking overrides are present. Import is blocked to prevent overwriting desktop code; merge resource updates and review desktop-resources.json explicitly.');
+  }
   const realSource = fs.realpathSync(source);
   const realApp = fs.realpathSync(APP);
   const overlap = (a, b) => { const rel = path.relative(a, b); return !rel || (!rel.startsWith('..') && !path.isAbsolute(rel)); };

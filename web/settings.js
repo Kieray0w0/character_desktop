@@ -82,7 +82,7 @@
     }
   });
   $('character-select').replaceChildren(...window.CHARACTER_CATALOG.map(entry => new Option(`${entry.zh} / ${entry.en}`, entry.id)));
-  for (const id of ['character-select', 'skin-select', 'voice-enabled', 'auto-interact', 'speed']) {
+  for (const id of ['character-select', 'skin-select', 'voice-enabled', 'auto-interact', 'body-follow', 'arm-follow', 'speed']) {
     const element = $(id);
     const event = id === 'speed' ? 'input' : 'change';
     element.addEventListener(event, () => {

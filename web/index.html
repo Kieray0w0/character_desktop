@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Character Desktop</title>
   <link rel="stylesheet" href="desktop.css">
+  <link rel="stylesheet" href="themes.css">
+  <link rel="stylesheet" href="button-icons.css">
+  <script src="button-icons.js" defer></script>
+  <script src="theme.js" defer></script>
   <script src="cute/characters.js" defer></script>
   <script src="narcissus-live2d.js" defer></script>
   <script src="character-spine.js" defer></script>
@@ -44,6 +48,11 @@
     <div class="separator"></div>
     <div class="capture-heading"><h2>摄像头动捕</h2><span class="local-tag">本地处理</span></div>
     <p class="hint">头部转动、眨眼、张嘴。微笑与眉毛依皮肤支持；不是全身动捕。</p>
+    <label class="check"><input id="body-follow" type="checkbox" disabled>上半身跟随（实验）</label>
+    <p class="hint">开启动捕前选择。双肩完整入镜，支持身体侧倾。会增加运算负担。</p>
+    <label class="check"><input id="arm-follow" type="checkbox" disabled>手臂跟随（实验）</label>
+    <p class="hint">仅纸信圈儿「原子时报晓」支持；需先勾选上半身跟随。肩、肘、腕入镜，保持舒适姿势片刻再轻缓活动。小幅相对跟随，不支持手指。</p>
+    <p id="body-status" class="hint" role="status">仅面部动捕；可选择上半身跟随。</p>
     <button id="capture-toggle" class="primary" type="button" aria-pressed="false" aria-describedby="capture-status" disabled>开启摄像头动捕</button>
     <p id="capture-status" class="hint" role="status">请等待角色加载。</p>
     <video id="camera-preview" muted playsinline aria-label="摄像头镜像预览" hidden></video>
