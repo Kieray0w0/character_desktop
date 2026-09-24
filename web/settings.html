@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>角色设置</title>
+  <link rel="stylesheet" href="desktop.css">
+  <script src="cute/characters.js" defer></script>
+  <script src="settings.js" defer></script>
+</head>
+<body class="settings-window">
+  <section id="settings" aria-label="独立桌面角色设置">
+    <header title="按住标题栏拖动设置窗口"><div><span class="eyebrow">YOUR LITTLE STUDIO</span><h1>桌面角色</h1></div><button id="settings-close" type="button" aria-label="收起设置窗口">收起</button></header>
+    <div id="settings-content">
+      <p class="intro">拖动顶部标题栏移动此窗口，不会带动角色。右键角色可显示四角缩放手柄，按住任意一角等比例调整大小。</p>
+      <fieldset id="model-controls" disabled>
+        <label for="character-select">角色 <span>CHARACTER</span></label>
+        <select id="character-select"></select>
+        <label for="skin-select">皮肤 <span>GARMENT</span></label>
+        <select id="skin-select"></select>
+        <div class="separator"></div>
+        <label for="size">桌面大小 <output id="size-value">100%</output></label>
+        <input id="size" type="range" min="70" max="150" step="0.1" value="100">
+        <label for="speed">动作与语音速度 <output id="speed-value">1×</output></label>
+        <input id="speed" type="range" min="0.25" max="3" step="0.25" value="1">
+        <label class="check"><input id="topmost" type="checkbox" checked>始终置顶</label>
+        <label class="check"><input id="voice-enabled" type="checkbox" checked>互动时允许语音</label>
+        <label class="check"><input id="auto-interact" type="checkbox">每分钟随机互动</label>
+        <div class="separator"></div>
+        <div class="capture-heading"><h2>摄像头动捕</h2><span class="local-tag">本地处理</span></div>
+        <p class="hint">头部转动、眨眼、张嘴。微笑与眉毛依皮肤支持；不是全身动捕。</p>
+        <button id="capture-toggle" class="primary" type="button" aria-pressed="false" aria-describedby="capture-status" disabled>开启摄像头动捕</button>
+        <p id="capture-status" class="hint" role="status">等待角色状态…</p>
+        <img id="camera-preview" alt="摄像头镜像预览" hidden>
+        <button id="calibrate" type="button" hidden>校准正面姿态</button>
+        <p class="privacy">不上传、不录像、不使用麦克风。收起设置不停止动捕；隐藏角色、切换皮肤或退出会释放摄像头。</p>
+        <div class="separator"></div>
+        <p id="model-status" class="hint" role="status">等待角色状态…</p>
+        <button id="retry" type="button" hidden>重新加载角色</button>
+      </fieldset>
+      <button id="quit" class="quiet" type="button">退出桌面程序</button>
+      <p id="website-status" class="hint" role="status" hidden></p>
+      <a id="open-website" href="https://Kieray0w0.github.io/" title="在默认浏览器中打开">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M6 6h12v12"/></svg>
+        <span>Kieray0w0.github.io</span>
+      </a>
+    </div>
+  </section>
+</body>
+</html>

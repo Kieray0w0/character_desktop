@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "package": {
+    "name": "@mediapipe/tasks-vision",
+    "version": "0.10.21",
+    "license": "Apache-2.0",
+    "registry_url": "https://registry.npmjs.org/@mediapipe/tasks-vision/0.10.21",
+    "source_url": "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.10.21.tgz",
+    "integrity": "sha512-TuhKH+credq4zLksGbYrnvJ1aLIWMc5r0UHwzxzql4BHECJwIAoBR61ZrqwGOW6ZmSBIzU1t4VtKj8hbxFaKeA==",
+    "bytes": 6164925,
+    "sha256": "343736570f433c0100ffc360dbe70f09cc502a5fc573f5cd95954692edc9cfde",
+    "archive_members": [
+      "package/vision_bundle.cjs",
+      "package/wasm/vision_wasm_internal.js",
+      "package/wasm/vision_wasm_nosimd_internal.js",
+      "package/package.json",
+      "package/vision_bundle.cjs.map",
+      "package/vision_bundle.mjs.map",
+      "package/README.md",
+      "package/vision_bundle.mjs",
+      "package/vision.d.ts",
+      "package/wasm/vision_wasm_internal.wasm",
+      "package/wasm/vision_wasm_nosimd_internal.wasm"
+    ],
+    "notice_members": [],
+    "license_source_commit": "cad7f3ab99ebf175947e40c5252c642612aae927",
+    "license_note": "npm archive includes no standalone LICENSE; LICENSE is the unmodified upstream v0.10.21 repository license."
+  },
+  "model": {
+    "source_url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+    "variant": "float16",
+    "revision": "1",
+    "publisher": "Google MediaPipe",
+    "license": "NOASSERTION",
+    "license_note": "No standalone LICENSE or NOTICE in the official task archive. A model-specific license grant has not been verified; do not infer it from the npm/runtime Apache-2.0 license or documentation footer.",
+    "documentation_url": "https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker",
+    "archive_members": [
+      {
+        "file": "face_detector.tflite",
+        "bytes": 229746,
+        "sha256": "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f"
+      },
+      {
+        "file": "face_landmarks_detector.tflite",
+        "bytes": 2553590,
+        "sha256": "c7d54204ce0448474c7f3fa9af494787c0965cbdd6f20fc72867e43046bd43d5"
+      },
+      {
+        "file": "geometry_pipeline_metadata_landmarks.binarypb",
+        "bytes": 19376,
+        "sha256": "bdbcda96dfcb7da883da124aaa2c55dee49770d934f0fcc71747f8c21bdc75b4"
+      },
+      {
+        "file": "face_blendshapes.tflite",
+        "bytes": 955312,
+        "sha256": "4f36dded049db18d76048567439b2a7f58f1daabc00d78bfe8f3ad396a2d2082"
+      }
+    ]
+  },
+  "api_verification": {
+    "source_url": "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.10.21.tgz",
+    "archive_member": "package/vision.d.ts",
+    "bytes": 123366,
+    "sha256": "7f348fe19a71756057ba4358b7d13d3162e9400dc3965845c015145f53a0ab67",
+    "required_symbols": [
+      "FaceLandmarker",
+      "FilesetResolver",
+      "forVisionTasks",
+      "createFromOptions",
+      "detectForVideo",
+      "outputFaceBlendshapes",
+      "outputFacialTransformationMatrixes",
+      "faceBlendshapes",
+      "facialTransformationMatrixes"
+    ],
+    "checks": "Symbols checked in pinned declarations and ESM; model ZIP CRC, TFL3 identifiers, blendshape model and geometry metadata checked. Not a browser/camera inference test."
+  },
+  "assets": [
+    {
+      "file": "vision_bundle.mjs",
+      "source_url": "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.10.21.tgz",
+      "archive_member": "package/vision_bundle.mjs",
+      "license": "Apache-2.0",
+      "bytes": 137735,
+      "sha256": "40f4123dfcd75cfa58add046919cc6f52fde66f009ff582997c09ba54c6ba27c"
+    },
+    {
+      "file": "wasm/vision_wasm_internal.js",
+      "source_url": "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.10.21.tgz",
+      "archive_member": "package/wasm/vision_wasm_internal.js",
+      "license": "Apache-2.0",
+      "bytes": 204284,
+      "sha256": "4a97e2520ba506c680ecd6ba6acfb146888afa0e2746d57f205352bc6ebb82eb"
+    },
+    {
+      "file": "wasm/vision_wasm_internal.wasm",
+      "source_url": "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.10.21.tgz",
+      "archive_member": "package/wasm/vision_wasm_internal.wasm",
+      "license": "Apache-2.0",
+      "bytes": 9574032,
+      "sha256": "f00ec4731faa23b3e714d00e88d4d10e2df5c0a427d3a2b4ae6e3526fdd14ef7"
+    },
+    {
+      "file": "wasm/vision_wasm_nosimd_internal.js",
+      "source_url": "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.10.21.tgz",
+      "archive_member": "package/wasm/vision_wasm_nosimd_internal.js",
+      "license": "Apache-2.0",
+      "bytes": 204137,
+      "sha256": "927def7b465c51b86e4b3060f93646aca4e27121f4b8fc0483786e407ea9cf1f"
+    },
+    {
+      "file": "wasm/vision_wasm_nosimd_internal.wasm",
+      "source_url": "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.10.21.tgz",
+      "archive_member": "package/wasm/vision_wasm_nosimd_internal.wasm",
+      "license": "Apache-2.0",
+      "bytes": 9448638,
+      "sha256": "3821ea9b1f7fb8c549ef2a064ef5c85750bf375c545a49fd6eea0df44a95f1f4"
+    },
+    {
+      "file": "provenance/package.json",
+      "source_url": "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.10.21.tgz",
+      "archive_member": "package/package.json",
+      "license": "Apache-2.0",
+      "bytes": 592,
+      "sha256": "18e96c370b666f1f6b096c96255f19a4750522d207cff5dc721aeb4c4e4da701"
+    },
+    {
+      "file": "models/face_landmarker.task",
+      "source_url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+      "license": "NOASSERTION",
+      "bytes": 3758596,
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+    },
+    {
+      "file": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/google-ai-edge/mediapipe/cad7f3ab99ebf175947e40c5252c642612aae927/LICENSE",
+      "license": "Apache-2.0",
+      "bytes": 12331,
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+    }
+  ],
+  "total_asset_bytes": 23340345,
+  "runtime_and_model_bytes": 23327422
+}

@@ -1,0 +1,277 @@
+{
+  "source": "https://uttu.merui.net/profiles/narcissus/?page=info&tab=voice",
+  "voices": [
+    {
+      "id": 0,
+      "label": "First Encounter",
+      "en": "The great Narcissus has finally graced this place with her arrival! Ready the spotlight, the applause, the praise!\n... Hello? Where's my adoring fans?",
+      "zh": "无与伦比的伟大英雄“纳西索斯”前来造访！灯光、掌声、赞美！\n……还没准备好吗？",
+      "audio": "cute/Narcissus/Voice/audio/01_play_hero3157_mainvoc_1.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/01_play_hero3157_mainvoc_1.mp3"
+    },
+    {
+      "id": 1,
+      "label": "Suitcase Climate",
+      "en": "Mm, nothing beats a bright, cloudless day!\nPerfect for sneaking off to the reed-ringed pond and paying my reflection a visit—\nafter all, where else could I hope to find a face so perfect?",
+      "zh": "最好是碧空无云的日子，\n拨开那片芦苇与菖蒲，湖面上映出我的倒影——\n天！多么完美的一张脸呀！",
+      "audio": "cute/Narcissus/Voice/audio/02_play_hero3157_mainvoc_2.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/02_play_hero3157_mainvoc_2.mp3"
+    },
+    {
+      "id": 2,
+      "label": "To the Future",
+      "en": "Spring Nymphs mature slowly by nature, and I seem to be the slowest of them all ...\nAt times, I don't even know what to do with this long childhood, let alone how I'll live the rest of my life ...\nWell! That only means I'm destined for something none of the others could ever manage!",
+      "zh": "泉水宁芙是生长缓慢的种族，而我的成长速度也比其他族人都要慢……\n那么长的生命，要做些什么好呢？\n哼哼，我决定我要和所有人都不一样！",
+      "audio": "cute/Narcissus/Voice/audio/03_play_hero3157_mainvoc_3.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/03_play_hero3157_mainvoc_3.mp3"
+    },
+    {
+      "id": 3,
+      "label": "Idle",
+      "en": "Vertin, Vertin! How could you turn such a cold shoulder to your companion after our heroic voyage?\nAfter everything we've been through together, there's no way we're running out of things to talk about now!",
+      "zh": "维尔汀，别忽视我！我们可是“英雄挚友”！\n既是得胜的大英雄，又是感情深厚的好朋友，我们之间怎么能只有沉默呢？",
+      "audio": "cute/Narcissus/Voice/audio/04_play_hero3157_mainvoc_4.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/04_play_hero3157_mainvoc_4.mp3"
+    },
+    {
+      "id": 4,
+      "label": "Greetings",
+      "en": "Ah, there you are! Just in time before your poor Narcissus wastes away missing you.\nCome, sit—tell me all about your adventures out there!",
+      "zh": "你终于来了！别忘了，你诚挚的朋友，纳西索斯，大部分时间也在想念你！\n快快告诉我，今天有什么新的见闻？",
+      "audio": "cute/Narcissus/Voice/audio/05_play_hero3157_mainvoc_5.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/05_play_hero3157_mainvoc_5.mp3"
+    },
+    {
+      "id": 5,
+      "label": "Morning",
+      "en": "I like to sprawl out on the hillside facing the sea and drift off to sleep beneath the warm sun.\nBut every once in a while, a ram would nudge me awake;\nI guess they see my golden locks and take me for one of their lambs!",
+      "zh": "我躺在草坡上，在清晨的风与阳光中睡着了。\n有东西在窸窸窣窣地拱着我的头发，\n我知道是那些毛茸茸的金毛羊，它们经常误把我当作同类……",
+      "audio": "cute/Narcissus/Voice/audio/06_play_hero3157_mainvoc_6.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/06_play_hero3157_mainvoc_6.mp3"
+    },
+    {
+      "id": 6,
+      "label": "Bond: Morning",
+      "en": "When the water was warm enough, I'd spend my nights just beneath the surface looking up at the sky,\njust waiting for Eos to swipe away the darkness with her rosy fingers.\nEven though I spend most of my time on land, I still take time to see the sunrise now and again—hard not to be awed by her handiwork.",
+      "zh": "我彻夜不归，直到厄俄斯用玫瑰色的手指点亮了天空，\n我曾在湖水之下看着这样的朝霞。\n现在，我与真实的天空之间，不会再有任何阻隔。",
+      "audio": "cute/Narcissus/Voice/audio/07_play_hero3157_mainvoc_7.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/07_play_hero3157_mainvoc_7.mp3"
+    },
+    {
+      "id": 7,
+      "label": "Night",
+      "en": "I burned the membranes of my fingers on an oil lamp once. At the time, I feared my hands would be scarred forever!\nAh, the scolding I got when my family learned I'd been sneaking out of the pond to look at those frescoes!\nBut I had fun, and they grew back in the end, so everything turned out just fine, didn't it?",
+      "zh": "我小时候被油灯燎过鱼鳍，一度以为它们长不回来了！\n族人们惊慌失措，责怪我怎么敢爬上岸去，借着夜色里的火光看那些壁画……\n可那多有趣呀！我的鱼鳍也长回来了，毫无损失！不是吗？",
+      "audio": "cute/Narcissus/Voice/audio/08_play_hero3157_mainvoc_8.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/08_play_hero3157_mainvoc_8.mp3"
+    },
+    {
+      "id": 8,
+      "label": "Bond: Night",
+      "en": "There was a time in my life when I thought of nothing but myself.\nI wasn't curious about anything else around me.\nBut I've grown; now I'll listen for the chirping of newly-hatched owlets in a tree,\nand wonder at where the fallen petals of the daffodils blow when they catch in the wind ... I can't wait to find out!",
+      "zh": "有很长一段时间，我只想着自己的事情。\n我的世界里只有自己的倒影，我不需要任何其他东西了……\n可树梢上的小鸮为何一直咕咕叫？\n水仙花瓣最终离开了花蕊，那究竟是枯萎，还是新生？我想要知道！",
+      "audio": "cute/Narcissus/Voice/audio/09_play_hero3157_mainvoc_9.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/09_play_hero3157_mainvoc_9.mp3"
+    },
+    {
+      "id": 9,
+      "label": "Hat and Hair",
+      "en": "The membrane here is very fragile, so we're always careful with them.\nOr ... well, I try to, at least. I've torn them a few times but they always grow back ...\nOh? Yes, of course! Touch away! They have a unique texture, wouldn't you agree?",
+      "zh": "这里的鳍很脆弱，所以泉水宁芙总是会小心翼翼地保护它们。\n但我有很多次“不小心”，它们似乎也没什么变化……\n维尔汀，你当然可以碰它们——这对你来说也是一件新鲜事吧！",
+      "audio": "cute/Narcissus/Voice/audio/10_play_hero3157_mainvoc_10.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/10_play_hero3157_mainvoc_10.mp3"
+    },
+    {
+      "id": 10,
+      "label": "Sleeves and Hands",
+      "en": "Webbing or not, we Spring Nymphs still know how to shake hands!\nJust like any other species, it's a gesture of friendship and goodwill!",
+      "zh": "我和你不一样，我的手指无法真的分开——\n但我们还是可以握手呀！握握手，我的好朋友！",
+      "audio": "cute/Narcissus/Voice/audio/11_play_hero3157_mainvoc_11.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/11_play_hero3157_mainvoc_11.mp3"
+    },
+    {
+      "id": 11,
+      "label": "Clothing and Torso",
+      "en": "I've been to Paris, to London, and Milan—all the great cities of fashion!\nThey gave me all kinds of inspirations about what I could do with this outfit.\nBut of course, I didn't forget my origins—\nI managed to add in these ripple-like patterns and flowers for good measure!",
+      "zh": "我去了巴黎、伦敦还有米兰！\n在时尚之都里采集众多灵感后，才有了这一身衣服！\n当然，我没有忘记湖水中的涟漪和一直陪伴我的花，\n以及这些亮晶晶的、新新世界里的小饰品！",
+      "audio": "cute/Narcissus/Voice/audio/12_play_hero3157_mainvoc_12.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/12_play_hero3157_mainvoc_12.mp3"
+    },
+    {
+      "id": 12,
+      "label": "Hobby",
+      "en": "What do I prize most? Why, myself, of course! Do I swim slowly? That's so I don't miss the good things along the way!\nDo I look like a lost cause in games? I'm just waiting for the wind to turn in my favor! It is all a matter of timing—my time will come!",
+      "zh": "我最最欣赏我自己！如果我游得比较慢，那就是我在等待一个好时机；\n如果胜利总是遥远，那就是路上有不容错过的风景。一切总是如此的——刚刚好！",
+      "audio": "cute/Narcissus/Voice/audio/13_play_hero3157_mainvoc_13.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/13_play_hero3157_mainvoc_13.mp3"
+    },
+    {
+      "id": 13,
+      "label": "Praise",
+      "en": "Your eyes are like the clearest lake, and the jewel on your jabot gleams no less than the \"Eye of the Tides.\"\nEven your bearing is ever so graceful ... Now—your turn. Praise me!",
+      "zh": "你的眼睛如同湖水一样清澈，胸前的宝石也有不逊于波涛之眼的光芒，\n气质更是古典、优雅而不失高贵……现在轮到你来夸夸我了！",
+      "audio": "cute/Narcissus/Voice/audio/14_play_hero3157_mainvoc_14.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/14_play_hero3157_mainvoc_14.mp3"
+    },
+    {
+      "id": 14,
+      "label": "Intimacy",
+      "en": "I've noticed time moves more slowly for me than for the other Spring Nymph, but I've never let it bother me!\nA-Although, I think—\nI think maybe I would've wished otherwise, had I known I would one day meet you!\nThat way we could have met sooner!",
+      "zh": "我从不在乎我长得比其他的泉水宁芙要慢！\n但是，维尔汀，\n如果我在那时知道我们会成为朋友，我就会祈祷时间变得更快一些、再快一些！\n快长大，快游出去，快去遇见维尔汀！",
+      "audio": "cute/Narcissus/Voice/audio/15_play_hero3157_mainvoc_15.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/15_play_hero3157_mainvoc_15.mp3"
+    },
+    {
+      "id": 15,
+      "label": "Chitchat I",
+      "en": "That girl with the balloon ... she has such a unique charm to her!\nShe gave me one of her balloons—does that mean that she wants to be friends?\nI would most readily agree! Only ... that liquid inside the balloon ... It will stay in there, right?",
+      "zh": "那个抓着气球的女孩——她真酷！\n她送给我气球，这是不是“想要成为朋友”的讯号？\n当然可以！不过那气球里的东西应该只是装饰……对、对吧？",
+      "audio": "cute/Narcissus/Voice/audio/16_play_hero3157_mainvoc_16.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/16_play_hero3157_mainvoc_16.mp3"
+    },
+    {
+      "id": 16,
+      "label": "Chitchat II",
+      "en": "I've been making the most of my time here, meeting all kinds of people every day and writing home about them.\nDo you think the other Spring Nymphs would care to hear about life here?\nI hope they do—it'll be nice for them to read about something different from our lake, I think ...",
+      "zh": "我在箱子里到处游玩，遇到一些新朋友。我给那些生活在宁静湖中的族人们写信，告诉他们我的新生活。\n他们会看完那些信吗？\n也许有一天，他们会想看看不一样的世界……",
+      "audio": "cute/Narcissus/Voice/audio/17_play_hero3157_mainvoc_17.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/17_play_hero3157_mainvoc_17.mp3"
+    },
+    {
+      "id": 17,
+      "label": "Monologue",
+      "en": "Apollo and Themis are always nagging me to be more careful with prophecy and fate.\nApparently, I ought to think more about things before I choose to believe them ...\nbut believing in my oracle is what brought you to us; it's in my nature to trust in what I believe wholeheartedly.",
+      "zh": "阿波罗和忒弥斯都说我太容易过分相信某种东西了。\n该轻巧地从神谕中习得智慧，该有所保留地顺应溪流的指引……\n可当我下定决心跃入大海的时候，我已经知道——我会用尽全力去做所有事情。",
+      "audio": "cute/Narcissus/Voice/audio/18_play_hero3157_mainvoc_18.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/18_play_hero3157_mainvoc_18.mp3"
+    },
+    {
+      "id": 18,
+      "label": "Deployment",
+      "en": "Come on! Put me right in the center of it all!",
+      "zh": "快来快来！我想站在正中央！",
+      "audio": "cute/Narcissus/Voice/audio/19_play_hero3157_fightingvoc_19.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/19_play_hero3157_fightingvoc_19.mp3"
+    },
+    {
+      "id": 19,
+      "label": "Pre-Battle",
+      "en": "You have been graced by my presence!",
+      "zh": "闪亮登场！",
+      "audio": "cute/Narcissus/Voice/audio/20_play_hero3157_fightingvoc_20.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/20_play_hero3157_fightingvoc_20.mp3"
+    },
+    {
+      "id": 20,
+      "label": "Select Incantation I",
+      "en": "Sparkle-sprinkle!",
+      "zh": "亮晶晶！",
+      "audio": "cute/Narcissus/Voice/audio/21_play_hero3157_fightingvoc_21.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/21_play_hero3157_fightingvoc_21.mp3"
+    },
+    {
+      "id": 21,
+      "label": "Select Incantation II",
+      "en": "Narcissus is here!",
+      "zh": "有我在，有我在～",
+      "audio": "cute/Narcissus/Voice/audio/22_play_hero3157_fightingvoc_22.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/22_play_hero3157_fightingvoc_22.mp3"
+    },
+    {
+      "id": 22,
+      "label": "Select 3-star Incantation",
+      "en": "You can always bet on me!",
+      "zh": "可靠的纳西索斯！",
+      "audio": "cute/Narcissus/Voice/audio/23_play_hero3157_fightingvoc_23.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/23_play_hero3157_fightingvoc_23.mp3"
+    },
+    {
+      "id": 23,
+      "label": "Select Ultimate",
+      "en": "Now our adventure reaches its climax ...",
+      "zh": "这是最重要的一部分……",
+      "audio": "cute/Narcissus/Voice/audio/24_play_hero3157_fightingvoc_24.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/24_play_hero3157_fightingvoc_24.mp3"
+    },
+    {
+      "id": 24,
+      "label": "Cast Arcane Skill I",
+      "en": "Surprise!",
+      "zh": "有惊喜！",
+      "audio": "cute/Narcissus/Voice/audio/25_play_hero3157_fightingvoc_25.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/25_play_hero3157_fightingvoc_25.mp3"
+    },
+    {
+      "id": 25,
+      "label": "Cast Arcane Skill I",
+      "en": "Oops—watch your step!",
+      "zh": "看下面！",
+      "audio": "cute/Narcissus/Voice/audio/26_play_hero3157_fightingvoc_26.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/26_play_hero3157_fightingvoc_26.mp3"
+    },
+    {
+      "id": 26,
+      "label": "Cast Arcane Skill II",
+      "en": "Onwards, gentle ripples ...",
+      "zh": "一些涟漪……",
+      "audio": "cute/Narcissus/Voice/audio/27_play_hero3157_fightingvoc_27.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/27_play_hero3157_fightingvoc_27.mp3"
+    },
+    {
+      "id": 27,
+      "label": "Cast Arcane Skill II",
+      "en": "Embrace the flow!",
+      "zh": "流经你和我！",
+      "audio": "cute/Narcissus/Voice/audio/28_play_hero3157_fightingvoc_28.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/28_play_hero3157_fightingvoc_28.mp3"
+    },
+    {
+      "id": 28,
+      "label": "Cast Ultimate",
+      "en": "Then came forth your savior, Narcissus!",
+      "zh": "英雄，名为纳西索斯！",
+      "audio": "cute/Narcissus/Voice/audio/29_play_hero3157_fightingvoc_29.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/29_play_hero3157_fightingvoc_29.mp3"
+    },
+    {
+      "id": 29,
+      "label": "Attacked I",
+      "en": "I won't run!",
+      "zh": "我才不会逃走！",
+      "audio": "cute/Narcissus/Voice/audio/30_play_hero3157_fightingvoc_30.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/30_play_hero3157_fightingvoc_30.mp3"
+    },
+    {
+      "id": 30,
+      "label": "Attacked II",
+      "en": "You should run, NOW!",
+      "zh": "该躲开的是你！",
+      "audio": "cute/Narcissus/Voice/audio/31_play_hero3157_fightingvoc_31.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/31_play_hero3157_fightingvoc_31.mp3"
+    },
+    {
+      "id": 31,
+      "label": "Battle Victory",
+      "en": "See? I knew we would prevail!",
+      "zh": "我就说吧！只要有我们在，胜利总会相随！",
+      "audio": "cute/Narcissus/Voice/audio/32_play_hero3157_fightingvoc_32.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/32_play_hero3157_fightingvoc_32.mp3"
+    },
+    {
+      "id": 32,
+      "label": "Insight",
+      "en": "I feel incredible!\nLike I could throw myself straight into any storm the sea sends my way!\nAh—just look at my fins! They're telling me, \"Narcissus, you were born for this!\"",
+      "zh": "真奇妙！我感到更加……跃跃欲试了！\n尽管前方是大雨和风暴，尽管那会是更多的危险与疼痛……\n脆弱的鱼鳍像枝叶一样向这世界的远方舒展着，好像正在说：“纳西索斯，我们不害怕！”",
+      "audio": "cute/Narcissus/Voice/audio/33_play_hero3157_fightingvoc_33.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/33_play_hero3157_fightingvoc_33.mp3"
+    },
+    {
+      "id": 33,
+      "label": "Bottom of Insight",
+      "en": "The first time I dove into salt water, my webbings stung terribly!\nI thought they'd dry up and fall off—that they only belonged in rivers and springs.\nBut look at them now! They've toughened up wonderfully. Gods, I love the sea ...\nand my fins seem to enjoy it just as much as I do!",
+      "zh": "第一次浸入海水之中时，我的掌蹼疼得要命，\n像在抱怨我不该前往大海！\n但现在它们变得更有韧性了！因为我后来在海里游了一次又一次……\n大家都适应得很好呢！",
+      "audio": "cute/Narcissus/Voice/audio/34_play_hero3157_fightingvoc_34.mp3",
+      "audioMp3": "cute/Narcissus/Voice/audio/34_play_hero3157_fightingvoc_34.mp3"
+    }
+  ]
+}

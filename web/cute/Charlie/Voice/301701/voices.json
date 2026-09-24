@@ -1,0 +1,277 @@
+{
+  "source": null,
+  "voices": [
+    {
+      "id": 0,
+      "label": "First Encounter",
+      "en": "Ah! The troopers are here! Get out of ...\nHuh? You are not one of them? I am so, so sorry!",
+      "zh": "啊！追兵追上来了，快点离开这里……\n啊？您不是追兵吗？实在、实在是对不起！",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_01.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_01.mp3"
+    },
+    {
+      "id": 1,
+      "label": "Suitcase Climate",
+      "en": "What a nice day. There will be such a large audience to ... night.\nAh! My stomach, it hurts ... so much ... I'm not lying!",
+      "zh": "今天的天气不错，晚上一定会有很多观众……的。\n啊！我的肚子好疼，真的好疼，是……是真的！",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_02.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_02.mp3"
+    },
+    {
+      "id": 2,
+      "label": "To the Future",
+      "en": "Even if we do go back to the future, I still wanna go back farming ...\nGrow some potatoes, corn, raise some cattle.",
+      "zh": "就算真的回到了未来，我也还是想回家种地……\n我可以种点土豆，还有玉米，再养一些牛。",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_03.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_03.mp3"
+    },
+    {
+      "id": 3,
+      "label": "Idle",
+      "en": "Silence on the stage is only a tiny lingering charm\nbefore the next magnificent show ...\nUm, what am I talking about!\n... Whew, thank goodness nobody noticed me.",
+      "zh": "舞台也会有沉寂之时。\n不过，这只是下一场盛大演出前，不值一提的余韵而已——\n呃、我在说什么啊！\n……呜，幸好没有人注意到我。",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_04.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_04.mp3"
+    },
+    {
+      "id": 4,
+      "label": "Greetings",
+      "en": "I'm sorry! I'm sorry!",
+      "zh": "对不起！对不起！",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_05.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_05.mp3"
+    },
+    {
+      "id": 5,
+      "label": "Morning",
+      "en": "Beautiful sunshine means a beautiful day ...\nHmm, people like me, who cannot do anything well, really don't deserve to be standing in the sun ...",
+      "zh": "美好的阳光象征着美好的一天……\n呜，像我这样什么都做不好的人，实在羞愧于站在阳光下……",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_06.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_06.mp3"
+    },
+    {
+      "id": 6,
+      "label": "Bond: Morning",
+      "en": "Good morning. Why am I in a good mood today, you ask?\nBecause the company takes a day off.",
+      "zh": "早上好～我看起来心情很好吗？\n大概是因为今天剧团休息吧……",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_07.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_07.mp3"
+    },
+    {
+      "id": 7,
+      "label": "Night",
+      "en": "Everyone else is ready? Mmm ... my feet ... I can't move my feet!",
+      "zh": "其他人已经准备就绪了吗？呜呜……脚、脚怎么走不动了！",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_08.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_08.mp3"
+    },
+    {
+      "id": 8,
+      "label": "Bond: Night",
+      "en": "The light is on ... It's time for me to go on stage.",
+      "zh": "舞台的灯光已经亮起……到了不得不上场的时候了啊……",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_09.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_09.mp3"
+    },
+    {
+      "id": 9,
+      "label": "Hat and Hair",
+      "en": "The illusion I create can only fool the eyes ...\nMy arcane skill is not of much use.",
+      "zh": "我所制造的幻象是只能骗到眼睛的假象……\n是个没什么用的神秘术。",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_10.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_10.mp3"
+    },
+    {
+      "id": 10,
+      "label": "Sleeves and Hands",
+      "en": "If none of these troubles had happened ... I would probably be milking the cow right now ... *sighs*",
+      "zh": "如果没有这趟子乱事儿，我现在还在挤牛奶吧……啊……",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_11.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_11.mp3"
+    },
+    {
+      "id": 11,
+      "label": "Clothing and Torso",
+      "en": "... It's indeed too much!\nI've told the cast do not pick this outfit ...",
+      "zh": "……果然还是太华丽了！\n我早就跟团员们说过不要选这套了……",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_12.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_12.mp3"
+    },
+    {
+      "id": 12,
+      "label": "Hobby",
+      "en": "Only when standing on the stage, when saying the lines ...\nCould I forget the fact that I'm such a useless, undeserving person ...",
+      "zh": "唯有在舞台之上，唯有说出那一句句台词的时候……\n我才能够忘记自己是一个无能的、不值得期待的人……",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_13.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_13.mp3"
+    },
+    {
+      "id": 13,
+      "label": "Praise",
+      "en": "Br ... brilliant! Your achievements are soaring like a harrier in the sky,\none can only admire but not be cynical.",
+      "zh": "太、太厉害了！您的杰出功绩，如同飞翔于天际之鹞鸥一般。\n让人唯有赞叹，而无嫉恨。",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_14.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_14.mp3"
+    },
+    {
+      "id": 14,
+      "label": "Intimacy",
+      "en": "I ... I will be brave ... Just like you!",
+      "zh": "我、我会勇敢起来的……像你一样！",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_15.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_15.mp3"
+    },
+    {
+      "id": 15,
+      "label": "Chitchat I",
+      "en": "People, people! Why are we wooing for our own destruction?\nWhy not just take my word and go back home farming?!",
+      "zh": "剧团、剧团！我们为什么要找死呢？！\n听我一句劝，大家收拾行李回乡下养牛种地不好吗？！",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_16.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_16.mp3"
+    },
+    {
+      "id": 16,
+      "label": "Chitchat II",
+      "en": "An't be my destiny, so. An't be not, so. He that dies this year is quit for the next.",
+      "zh": "死也好，活也罢，这都是命运。今年死了明年总不会再死。",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_17.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_17.mp3"
+    },
+    {
+      "id": 17,
+      "label": "Monologue",
+      "en": "Each one of us struggles to survive for a certain reason.\nBloodline, responsibility, pursuit, vocation ...\nIf the illusion I created could be one of their reasons ...\nthat would be enough.",
+      "zh": "我们每个人都是为了某些理由而坚持生存的。\n血脉、责任、理想、使命……\n如果我制造的幻影或许能够成为某个人的理由……\n这就足够了。",
+      "audio": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_18.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/mianvoc_hero3017/play_mianvoc_hero3017_18.mp3"
+    },
+    {
+      "id": 18,
+      "label": "Deployment",
+      "en": "Don ... don't look at me ... I'm not the one you saw on the wanted list ...",
+      "zh": "别、别看我，我不是你们在通缉令上看到的人……",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_19.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_19.mp3"
+    },
+    {
+      "id": 19,
+      "label": "Pre-Battle",
+      "en": "Did the show begin?\nExcellent, get ready to step onto the stage.",
+      "zh": "演出开始了吗？\n很好，准备步入舞台吧。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_20.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_20.mp3"
+    },
+    {
+      "id": 20,
+      "label": "Select Incantation I",
+      "en": "Let the show begin.",
+      "zh": "开演吧。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_21.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_21.mp3"
+    },
+    {
+      "id": 21,
+      "label": "Select Incantation II",
+      "en": "Heh heh.",
+      "zh": "呵。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_22.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_22.mp3"
+    },
+    {
+      "id": 22,
+      "label": "Select 3-star Incantation",
+      "en": "I shall take thy word.",
+      "zh": "我将采纳你的觐言。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_23.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_23.mp3"
+    },
+    {
+      "id": 23,
+      "label": "Select Ultimate",
+      "en": "This shall be my only act!",
+      "zh": "这将是我的独幕！",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_24.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_24.mp3"
+    },
+    {
+      "id": 24,
+      "label": "Cast Arcane Skill I",
+      "en": "Illusion is enough for them.",
+      "zh": "尽管只是幻象，但也足够了。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_25.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_25.mp3"
+    },
+    {
+      "id": 25,
+      "label": "Cast Arcane Skill I",
+      "en": "Foolish.",
+      "zh": "一群愚蠢之徒。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_26.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_26.mp3"
+    },
+    {
+      "id": 26,
+      "label": "Cast Arcane Skill II",
+      "en": "Ye provoked me.",
+      "zh": "你们惹怒了我。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_27.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_27.mp3"
+    },
+    {
+      "id": 27,
+      "label": "Cast Arcane Skill II",
+      "en": "Enough.",
+      "zh": "到此为止吧。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_28.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_28.mp3"
+    },
+    {
+      "id": 28,
+      "label": "Cast Ultimate",
+      "en": "Thy ending is destined.",
+      "zh": "你们的结局已然注定。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_29.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_29.mp3"
+    },
+    {
+      "id": 29,
+      "label": "Attacked I",
+      "en": "Malapert!",
+      "zh": "无礼之徒！",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_30.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_30.mp3"
+    },
+    {
+      "id": 30,
+      "label": "Attacked II",
+      "en": "Annoying bugs.",
+      "zh": "烦人的苍蝇。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_31.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_31.mp3"
+    },
+    {
+      "id": 31,
+      "label": "Battle Victory",
+      "en": "That's what you've got?\n... Huh? I'm sorry!",
+      "zh": "你们就这种水平吗？\n……啊？对不起！",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_32.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_32.mp3"
+    },
+    {
+      "id": 32,
+      "label": "Insight",
+      "en": "Umm ... Are you sure you're not making a mistake ... choosing me?",
+      "zh": "唔……您没有搞错什么东西吧……真的是我吗？",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_34.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_34.mp3"
+    },
+    {
+      "id": 33,
+      "label": "Bottom of Insight",
+      "en": "Aye ... aye!\nBe it tyrant or tyranny, people's right for joy cannot be snatched away.",
+      "zh": "没错……没错！\n不管是暴君还是暴力，都无法夺走人们的欢愉的权利。",
+      "audio": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_33.mp3",
+      "audioMp3": "cute/Charlie/Voice/audio/hero3017_skill/play_hero3017fightingvoc_33.mp3"
+    }
+  ]
+}

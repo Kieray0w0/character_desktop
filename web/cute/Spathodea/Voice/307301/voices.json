@@ -1,0 +1,277 @@
+{
+  "source": null,
+  "voices": [
+    {
+      "id": 0,
+      "label": "First Encounter",
+      "en": "Yoohoo! I ran here as fast as I could, right after today's training!\nYou said there would be a new doorplate for my room. What is it like?\nOh, wait, let me guess. Is it like a ball of fire or a rainbow?",
+      "zh": "哦——嗨！我刚刚做完今天的训练就跑过来啦，\n你说重新为我准备了一个门牌，它长什么样子呀？\n哦，等等——让我猜猜，它有火焰形状的火纹吗？还是一道彩虹？",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_1.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_1.mp3"
+    },
+    {
+      "id": 1,
+      "label": "Suitcase Climate",
+      "en": "It's a lovely day, and the sun is shining! Wanna go for a walk?",
+      "zh": "多好的太阳啊，想出去走走吗？",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_2.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_2.mp3"
+    },
+    {
+      "id": 2,
+      "label": "To the Future",
+      "en": "In the future ... I think I will continue to hold the Uluru Games.\nMaybe I'll grow too old to run one day,\nbut Ulu and the Games will always be there for everyone.",
+      "zh": "未来……我想，运动会将一直举办下去，\n也许我会变成老婆婆，会再也跑不动步，但和平乌鲁和它都会在，和所有人在一起。",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_3.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_3.mp3"
+    },
+    {
+      "id": 3,
+      "label": "Idle",
+      "en": "Mmm ...",
+      "zh": "嗯……呼……",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_4.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_4.mp3"
+    },
+    {
+      "id": 4,
+      "label": "Greetings",
+      "en": "Maybe ... maybe we can bring Fire Dance back to the Games.\nIt is a bit dangerous, but we can always have plenty of frogs by the field ...\nOh, there you are! Come check out my new proposal!",
+      "zh": "我们或许可以把“火中舞蹈”加回比赛项目里，\n虽然有些风险，不过我们可以准备足够的青蛙来预备……\n啊，你来啦？快来看看我的新计划书！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_5.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_5.mp3"
+    },
+    {
+      "id": 5,
+      "label": "Morning",
+      "en": "Alright ... I tried many times to swallow three raw eggs in the morning,\nbut all the attempts ended up failing.\nMaybe ... maybe I should use some sugar. Will it make them taste better, like pancakes?",
+      "zh": "好吧……我试过很多次，在早上喝下三颗生鸡蛋，但我一次都没有成功过，\n或许……或许我应该加点糖，这样它们会变得和松饼一样好入口些吗？",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_6.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_6.mp3"
+    },
+    {
+      "id": 6,
+      "label": "Bond: Morning",
+      "en": "Vertin, would you like to try a new hairstyle? Like boxer braids ...\nLook, I 100% respect your choice, but are you sure you don't wanna give it a go?\nI've been thinking how perfect it will look on you ...",
+      "zh": "维尔汀，你想尝试一下新发型吗？比如拳击辫……\n哦，我绝对尊重你的意愿，可是你真的不想试试看拳击辫吗？\n我一直在想你一定很适合这个发型——",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_7.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_7.mp3"
+    },
+    {
+      "id": 7,
+      "label": "Night",
+      "en": "I know a professional boxer should say no to junk food,\nbut ... sometimes I just can't control myself at midnight\nand I have to get up for a scoop of ice cream.\nWhen I do so, it tastes even better than usual.",
+      "zh": "虽然拳击手要尽量避免垃圾食物，\n但……我偶尔也会在夜里溜起来吃冰激凌，\n多神奇，凌晨的冰激凌总是更加香甜。",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_8.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_8.mp3"
+    },
+    {
+      "id": 8,
+      "label": "Bond: Night",
+      "en": "Hey, hey! Wake up, Vertin, wake up!\nI was sleeping in my room and started to sneeze like crazy,\nand then I saw something pop into the window ... It's mushrooms!\nFrom Ezra's room! They have filled up his room already and are still multiplying!\nWe gotta do something, or the suitcase will become a mushroom garden!",
+      "zh": "嘿、嘿！维尔汀！快醒醒——醒醒！\n我在睡觉时一个劲打喷嚏，\n紧接着就看见窗户里挤进来两朵……蘑菇！\n是爱兹拉的房间！那里面充满了蘑菇，而且正在不断增加！\n我们得想想办法，不然这儿就要是蘑菇的天下了！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_9.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_9.mp3"
+    },
+    {
+      "id": 9,
+      "label": "Hat and Hair",
+      "en": "The top priority in a boxing game is to protect your head.\nThat's essential when you're looking for an opportunity to give your opponent a concussion.",
+      "zh": "在拳击擂台上，最重要的是保护好脑袋。\n只有保护好自己的脑袋，才能更好地打击对手的脑袋。",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_10.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_10.mp3"
+    },
+    {
+      "id": 10,
+      "label": "Sleeves and Hands",
+      "en": "Cold compress, physical therapy, rehabilitation care ...\nI've mastered all the skills I need as a junior nurse! It's quite something, I know!\nBut you gotta understand anyone can master them, like breathing,\nas long as they suffer enough injuries.",
+      "zh": "冰敷、理疗、复健，\n我已经掌握了初级护理的所有技能啦。哼，这很厉害，我知道！\n但你要明白，只要你受伤的次数足够多，这些知识对你来说和呼吸一样简单。",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_11.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_11.mp3"
+    },
+    {
+      "id": 11,
+      "label": "Clothing and Torso",
+      "en": "Hahaha ... No, haha ... It tickles ... Hahaha! Oh my ...\nI-I have a strange feeling of deja vu. Something like this happened before,\nbut I don't remember what it really was ...",
+      "zh": "呀啊——别，哈哈……痒，好痒……哈哈哈！哦，呼……\n真、真奇怪，这样被挠痒痒的事儿好像什么时候发生过，\n但我却记不清楚是怎么回事了——",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_12.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_12.mp3"
+    },
+    {
+      "id": 12,
+      "label": "Hobby",
+      "en": "On the day my coach told my mom\n\"what Spathodea will be dealing with as a professional boxer\" ...\nI-I dreamed of Ulu that night, and her heat woke me up with a dry throat.\nSo I went to get water, and I saw Mom sitting in the dining room alone, looking at my collection of the Uluru photos ...\nAnyway, the next morning, she told me she would be supportive\nno matter what my decision would be.",
+      "zh": "在教练告诉妈妈“成为职业拳手将要面对什么”的那天……\n我半夜醒来，我梦到了和平乌鲁的身影，她烤得我又干又渴，\n我想去找点水喝，却看见妈妈带着我的乌卢鲁相簿独自坐在餐厅……\n但无论如何，第二天清晨她告诉我，她会支持我所做的一切决定。",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_13.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_13.mp3"
+    },
+    {
+      "id": 13,
+      "label": "Praise",
+      "en": "That's the spirit! Like a punch at full strength! Well done!",
+      "zh": "就是这样！奋力挥拳一样的精气神！你做得很好！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_14.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_14.mp3"
+    },
+    {
+      "id": 14,
+      "label": "Intimacy",
+      "en": "Wow, I've never had any chocolate like this!\nEmm, I mean, it's not the best chocolate I've had, of course.\nThe best one has something to do with a special moment that means a lot to me ...\nWhile this one, I like it simply because it's appetizing ... So, can I have one more?",
+      "zh": "哦，我还从没吃过这么好吃的巧克力！\n啊——我是说，这当然不是我人生中吃过最好吃的巧克力，\n有一些对我意义特殊的时刻是关于巧克力的，\n但从纯粹的食欲角度上来说，我喜欢这个……你能，再给我一块儿吗？",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_15.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_15.mp3"
+    },
+    {
+      "id": 15,
+      "label": "Chitchat I",
+      "en": "Whenever I deeply focus, sparks will be conjured around me.\nI used to believe that's my arcane skill,\nand my friends always described it as \"Flammy is on fire!\" ...\nHaha, it sounds kinda cool to me, actually!",
+      "zh": "在我十分专注的时候，我身边会出现火星一样的细小火焰，\n我一度认为这就是我的神秘术。我的朋友们称呼这个现象为“小火已经火力全开了！”……\n嘿嘿，其实我觉得这么说还挺酷的！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_16.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_16.mp3"
+    },
+    {
+      "id": 16,
+      "label": "Chitchat II",
+      "en": "Wait ... Wh-What is it that you're holding? A piece of paper from my ... bag?\nAaaaah! That's my report card! Stop reading!",
+      "zh": "等等——你，你拿的那是什么？是从我书包里掉出来的……纸？\n啊啊——那是我的成绩单！快别看了——！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_17.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_17.mp3"
+    },
+    {
+      "id": 17,
+      "label": "Monologue",
+      "en": "Before I took my first PE course, I never knew I could focus on one thing this much.\nThen I started my career as a professional boxer,\nand it was the first time I learned how cruel and inhumane the dark side of the sports circle can be.\nThen I spat fire, found myself to be a soul from the ancient times,\ngot blinded by hatred and moved on, brought the Uluru Games back,\nand ... and now it's time for me to go to senior high.",
+      "zh": "在我参加运动课程之前，我没想过我会这样全神贯注，\n在我走上职业拳击手道路之前，\n我也从没想过世界上存在那样可怕和残酷的故事。\n然后我能吐出火团，我是一个古老的灵魂，\n我被仇恨充满，我又抛弃仇恨，乌卢鲁运动会重新回到这个世界上，\n再然后……再然后，我就该上高中了。",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_18.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_mainvoc/play_hero3073_mainvoc_18.mp3"
+    },
+    {
+      "id": 18,
+      "label": "Deployment",
+      "en": "Now it's time for, Spaaaathodea!",
+      "zh": "选手入场！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_19.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_19.mp3"
+    },
+    {
+      "id": 19,
+      "label": "Pre-Battle",
+      "en": "Warm up, warm up! Get moving!",
+      "zh": "热身热身～动起来～",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_20.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_20.mp3"
+    },
+    {
+      "id": 20,
+      "label": "Select Incantation I",
+      "en": "That's right!",
+      "zh": "没错！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_21.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_21.mp3"
+    },
+    {
+      "id": 21,
+      "label": "Select Incantation II",
+      "en": "Nice tactic.",
+      "zh": "不错的战术。",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_22.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_22.mp3"
+    },
+    {
+      "id": 22,
+      "label": "Select 3-star Incantation",
+      "en": "Time to go all out.",
+      "zh": "后场发力～",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_23.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_23.mp3"
+    },
+    {
+      "id": 23,
+      "label": "Select Ultimate",
+      "en": "Come on, this is the one punch!",
+      "zh": "来吧，就是这一拳！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_24.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_24.mp3"
+    },
+    {
+      "id": 24,
+      "label": "Cast Arcane Skill I",
+      "en": "Seeing stars?",
+      "zh": "眼冒金星了吗？",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_25.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_25.mp3"
+    },
+    {
+      "id": 25,
+      "label": "Cast Arcane Skill I",
+      "en": "That hurts, huh?",
+      "zh": "这下吃瘪了吧！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_26.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_26.mp3"
+    },
+    {
+      "id": 26,
+      "label": "Cast Arcane Skill II",
+      "en": "Anyone feeling cold?",
+      "zh": "有人感觉冷吗？",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_27.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_27.mp3"
+    },
+    {
+      "id": 27,
+      "label": "Cast Arcane Skill II",
+      "en": "Like a lighter!",
+      "zh": "一点就着！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_28.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_28.mp3"
+    },
+    {
+      "id": 28,
+      "label": "Cast Ultimate",
+      "en": "Cheer and witness my victory!",
+      "zh": "欢呼吧，各位见证者！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_29.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_29.mp3"
+    },
+    {
+      "id": 29,
+      "label": "Attacked I",
+      "en": "Ouch!",
+      "zh": "哎哟！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_30.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_30.mp3"
+    },
+    {
+      "id": 30,
+      "label": "Attacked II",
+      "en": "Whoa ...!",
+      "zh": "哇——！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_31.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_31.mp3"
+    },
+    {
+      "id": 31,
+      "label": "Battle Victory",
+      "en": "A fair game!",
+      "zh": "公平的比赛！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_32.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_32.mp3"
+    },
+    {
+      "id": 32,
+      "label": "Insight",
+      "en": "Wow, these sparks, they are burning even hotter ...\nThis is so much fun! Can we do it one more time?",
+      "zh": "哦，这些火花儿，它们变得更热了……\n这很有趣，我们还能再来一次吗？",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_34.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_34.mp3"
+    },
+    {
+      "id": 33,
+      "label": "Bottom of Insight",
+      "en": "Woohoo! Let me rocket to the sky, like an unstoppable uppercut!",
+      "zh": "呜呼——高高飞起吧，就像是出拳时一样果决——！",
+      "audio": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_33.mp3",
+      "audioMp3": "cute/Spathodea/Voice/audio/hero3073_vo/play_hero3073_fightingvoc_33.mp3"
+    }
+  ]
+}

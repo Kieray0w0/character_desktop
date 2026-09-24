@@ -1,0 +1,2 @@
+# Resource manifests verify exact bytes, including original line endings.
+* -text

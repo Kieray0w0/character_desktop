@@ -1,0 +1,309 @@
+{
+  "source": null,
+  "voices": [
+    {
+      "id": 0,
+      "label": "First Encounter",
+      "en": "I've figured out how to blow the wind to carry both of us at the same time. Would you like to fly, Vertin? Just for a little while?",
+      "zh": "现在，我可以吹出让两个人飘起来的风了，维尔汀，你想试试飞的感觉吗？就一小会儿？",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_71.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_71.mp3"
+    },
+    {
+      "id": 1,
+      "label": "Suitcase Climate",
+      "en": "People send out doves and balloons on sunny days, but they never think about where they're goin'.\nThey might jam up the whole sky! That's why I've been flyerin' about havin' a \"release forecast\"!",
+      "zh": "人们有时候放飞鸽子，有时候放飞气球，\n特别在出太阳的时候，飞行路线很容易变得拥堵……应该有一个“放飞预报”！",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_72.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_72.mp3"
+    },
+    {
+      "id": 2,
+      "label": "To the Future",
+      "en": "If actors are puttin' on makeup, they're probably goin' to perform on the stage in the \"future.\"\nIf a museum guide steps in front of a group of people, they're probably goin' to start a speech in the \"future.\"\nBut now that robots do all those things for us, what're we supposed to do?\nHow can we predict the future if we can't even figure out what's goin' on right now?",
+      "zh": "如果剧院的演员开始化妆，“未来”他们就可能表演。\n如果展览馆的讲解员走在一群人前方，“未来”他们就可能介绍展品。\n但机器人把“未来”变得复杂多了——人们“现在”不做这些事了，却不知道还要做些什么。\n我没法推测“未来”，大家都还弄不清楚“现在”是什么样呢。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_73.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_73.mp3"
+    },
+    {
+      "id": 3,
+      "label": "Idle",
+      "en": "Hmm ... You're here, but your soul ain't. Why's that? Where'd it go, Vertin? Into a neural network, or somethin'?",
+      "zh": "唔……你还站在这里，但是你也不在这里。维尔汀，你的灵魂是跑去哪片神经网络了吗？",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_74.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_74.mp3"
+    },
+    {
+      "id": 4,
+      "label": "Greetings",
+      "en": "I'm practicin' my long-distance flyin' skills. This room ain't that big,\nbut as long as I keep my feet off the ground, I bet I could fly even further than the length of the Soyuz-Granit bridge!\nI'll prove I can fly for as long as I want, don't matter how small the room is.",
+      "zh": "我正在练习长距离飞行——虽然这里不够大，\n但假如我一直不落地，我也能在房间里飞出联盟号-花岗岩大桥那么长的距离。\n房子的大小并不能限制我飞多远，我想证明这个。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_75.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_75.mp3"
+    },
+    {
+      "id": 5,
+      "label": "Morning",
+      "en": "People's mornin' greetings have really changed. Other than the good old \"thank you\" and \"get lost,\"\nnow there's \"They invented a new type of robot?\" and \"Rafik, get this girl away!\"",
+      "zh": "大家有了更丰富的早安问候语，不只是“谢谢”和“滚开”，\n还有“他们又研发新型机器人了？”和“拉菲克，把这个小女孩赶走！”",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_76.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_76.mp3"
+    },
+    {
+      "id": 6,
+      "label": "Bond: Morning",
+      "en": "Lucy: \"Signal received. Estimated wakeup time: upon the return of the recording.\"\nMadam Lucy certainly is timely! Oh, mornin', Vertin. Thanks to Mr. X, I can use Chirpers to do my knocker-upperin' now.\nIt seems loads more fun than doin' it by hand! Want to see it for yourself tomorrow mornin'?",
+      "zh": "【露西】“已接收信号，预计录音返回时，我已完成‘起床’。”\n露西女士真准时——噢，维尔汀，你也在。我正试着用啁啾表做叫醒工，\n这样叫醒大家比敲窗子还要好玩！多亏了X先生的改造，明早你也来加入吗？",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_77.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_77.mp3"
+    },
+    {
+      "id": 7,
+      "label": "Night",
+      "en": "There's two ways Chirpers can help you sleep.\nOne is to watch them swing like a mind-controllin' pendulum. But I prefer the second, which is ...",
+      "zh": "啁啾表至少有两种催眠方式——\n把它当成一个钟摆，盯住它，或者还有种更好的，像这个……",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_78.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_78.mp3"
+    },
+    {
+      "id": 8,
+      "label": "Bond: Night",
+      "en": "I don't want to go to bed yet. I know it's dark outside,\nbut it's probably just a giant platform flyin' by—a much bigger one than Chelomey.\nSo I ain't goin' to sleep until I figure out what it is.",
+      "zh": "我还不想睡觉。我猜，现在天黑并不是因为太阳下山了，\n而是因为一座比切洛梅还大得多的飞行平台路过了这里。\n这是很有可能的，我应该等它离开后再盖上被子。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_79.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_79.mp3"
+    },
+    {
+      "id": 9,
+      "label": "Hat and Hair",
+      "en": "These Chirpers are proper nifty. You can pack up your memories in their \"waves\" and never forget a thing—\ndon't have to hold all the little bits in your brain no more.\nBut, uh, does that mean it's easier to remember things, or that it's easier to forget them?",
+      "zh": "这是个拒绝丢失记忆的好办法，把生活放在啁啾表的“波浪”里，一遍遍地听——\n我们再也不用费力地回想细节了，\n但这样究竟是更容易记住事情，还是更容易忘记？",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_80.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_80.mp3"
+    },
+    {
+      "id": 10,
+      "label": "Sleeves and Hands",
+      "en": "These fan blades on my wrists show me the wind, sort of like the bits of paper I used to use.\nSo, I thought I'd make a pinwheel out of the paper instead.\nBut I don't think they liked it, 'cause when I put it in my pocket, it broke all to pieces.\nSo I promised them I won't replace them with nothin', no matter what.",
+      "zh": "这些扇叶替代了布条与小纸屑，让我能看见风。\n我照着它们，把碎纸条做成了风车的样子。\n可我一旦把风车塞进口袋，它就又变回了碎纸条。\n所以它们是不能相互替代的。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_81.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_81.mp3"
+    },
+    {
+      "id": 11,
+      "label": "Clothing and Torso",
+      "en": "I sneakily joined a Drofa transport once—flew all the way to this big farm with it, but I accidentally fell asleep after we landed.\nWhen I woke up, a Bumblebee was holdin' me in the sky, with Drofas all around.\nSuddenly, I weren't flyin' alone no more. It was like I'd found my flock.",
+      "zh": "我混入过“鸨式”机器人的送货队列，跟着它们降落在一片农田里，不小心睡着了。\n我醒来的时候，一只“熊蜂”提着我。\n在那时，我感觉自己找到了鸟群，飞行不再孤独了。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_82.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_82.mp3"
+    },
+    {
+      "id": 12,
+      "label": "Hobby",
+      "en": "They say that there'll be no more schools when \"poly-education\" comes true.\nBut then, my favorite game will be gone too—colorin' in the gaps between letters on textbooks!\nNot to worry, I've come up with a new game: colorin' in the gaps between letters on newspapers!",
+      "zh": "听说，“综合教育”实现后，学校就会关门。\n那我可能会失去我最喜欢的游戏——把课本的每个字母空隙填满色。\n不过我已经想好了下一个游戏——把报纸的每个字母空隙填满色！",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_83.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_83.mp3"
+    },
+    {
+      "id": 13,
+      "label": "Praise",
+      "en": "Not many people properly listen when I ask things, but robots always do.\n'Course, you're not so bad yourself, Vertin. And your face is sometimes just as steady as a robot's.",
+      "zh": "愿意仔细听我提问的人很少，但机器人总是有问必答。\n当然，维尔汀也不赖，你回答问题的表情，有时候和机器人一样稳定。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_84.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_84.mp3"
+    },
+    {
+      "id": 14,
+      "label": "Intimacy",
+      "en": "I want to give commands to robots too. Then I can forbid them from sayin', \"Don't do this!\" and \"Don't do that!\"",
+      "zh": "我也想命令机器人。我想命令它们别对我说“不许做这个，也不许做那个！”",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_85.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_85.mp3"
+    },
+    {
+      "id": 15,
+      "label": "Chitchat I",
+      "en": "Ms. Willow just loved my new outfit! I think her exact words were, \"Who on earth decided to dress you up like even more of a kite?\"\nBut, wait ... kites need a wire, don't they?\nThe Kondor pilot said what I have is a wireless ... somethin' ... device.\nAnyway, it means I can go wherever I want. So even if I am a kite, I'm a free-flyin' kite.",
+      "zh": "笃笃骨也夸赞了我的新衣服，她说：“究竟是谁还嫌你不够像个风筝？”\n她是怎么知道我有“线”的呢？\n神鹫的控制员明明说那是“无线”电。\n“无线”电不会不够长，所以我还是很自在的一只小风筝。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_86.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_86.mp3"
+    },
+    {
+      "id": 16,
+      "label": "Chitchat II",
+      "en": "Vertin's recording: \"Don't cry. If we sow our seeds today, we'll reap a bountiful harvest in the future.\"\nI recorded this when you were tellin' us about your adventure in the Stage in the Rain.\nI thought and I thought about it, but I still think we can water the seeds with our tears.\nIf we don't cry them out, they'll just gather all up in our bodies like a big river. Trust me, I know.",
+      "zh": "【维尔汀的录音】“不要哭泣，把种子种下吧，我们会收获硕果。”\n在你讲述雨幕舞台里的冒险时，我录下了这句话。\n我思考了很久，还是觉得，也许我们可以考虑用眼泪来浇灌种子——\n眼泪不哭出来的话，就会在身体里越积越多，我试过。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_87.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_87.mp3"
+    },
+    {
+      "id": 17,
+      "label": "Monologue",
+      "en": "At first, I thought the Polymer Network would answer all the whys in the world and that would be it,\nbut ... somethin' didn't feel quite right about that.\nWell, I've figured it out now. The reason we answer all our whys is so we could ask more whys, 'cause there are always more whys to ask!",
+      "zh": "我原本以为，连接到聚合物网络……就可以让所有“为什么”都得到答案——那很好，\n但是又有些奇怪，我也说不清是为什么。\n不过，我现在搞明白了，得到答案是为了提出更多的、新的“为什么”。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_88.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_88.mp3"
+    },
+    {
+      "id": 18,
+      "label": "Deployment",
+      "en": "Do we need to record the sound here too?",
+      "zh": "这里也需要语音记录吗？",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_89.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_89.mp3"
+    },
+    {
+      "id": 19,
+      "label": "Pre-Battle",
+      "en": "Better get off the ground first.",
+      "zh": "我应该先飞起来。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_90.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_90.mp3"
+    },
+    {
+      "id": 20,
+      "label": "Select Incantation I",
+      "en": "Oi, wind! Over here!",
+      "zh": "风——快过来！",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_91.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_91.mp3"
+    },
+    {
+      "id": 21,
+      "label": "Select Incantation II",
+      "en": "I'm listenin'.",
+      "zh": "我正在听。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_92.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_92.mp3"
+    },
+    {
+      "id": 22,
+      "label": "Select 3-star Incantation",
+      "en": "I'll record this!",
+      "zh": "我来录这个！",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_93.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_93.mp3"
+    },
+    {
+      "id": 23,
+      "label": "Select Ultimate",
+      "en": "Closer to the clouds!",
+      "zh": "我会离云彩更近——",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_94.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_94.mp3"
+    },
+    {
+      "id": 24,
+      "label": "Cast Arcane Skill I",
+      "en": "Leap into the wind!",
+      "zh": "跳进风里！",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_95.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_95.mp3"
+    },
+    {
+      "id": 25,
+      "label": "Cast Arcane Skill I",
+      "en": "Up, up, and higher!",
+      "zh": "向上、向上——",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_96.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_96.mp3"
+    },
+    {
+      "id": 26,
+      "label": "Cast Arcane Skill II",
+      "en": "What a nasty noise!",
+      "zh": "不愉快的声音！",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_97.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_97.mp3"
+    },
+    {
+      "id": 27,
+      "label": "Cast Arcane Skill II",
+      "en": "It's too loud!",
+      "zh": "太大声了……",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_98.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_98.mp3"
+    },
+    {
+      "id": 28,
+      "label": "Cast Ultimate",
+      "en": "Is this what you really think, or just sleep-talk?",
+      "zh": "这是你的心声——还是梦话？",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_99.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_99.mp3"
+    },
+    {
+      "id": 29,
+      "label": "Attacked I",
+      "en": "*a choppy recording*",
+      "zh": "*一段卡顿的录音*",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_100.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_100.mp3"
+    },
+    {
+      "id": 30,
+      "label": "Attacked II",
+      "en": "\"No-Fly Zone\"?",
+      "zh": "“禁飞”？",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_101.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_101.mp3"
+    },
+    {
+      "id": 31,
+      "label": "Battle Victory",
+      "en": "Ain't nothin' more important than a victory message.\nWe need to make sure the dial and the gears listen and remember,\nso that we can hear it more and more often!",
+      "zh": "“胜利”很重要，\n现在表盘听到了，齿轮也听到了。\n很快，我们就可以一遍遍地听到了！",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_102.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_102.mp3"
+    },
+    {
+      "id": 32,
+      "label": "Insight",
+      "en": "Sometimes the wind brings me questions, and sometimes answers.\nBut, either way, I think they're like big presents all wrapped up in bows—'cause they're where the key to growin' up is hidden.",
+      "zh": "风有时候送来问题，有时候送来答案，它们都是礼物，我都收下了，\n我相信我会这样找到“成长的诀窍”。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_104.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_104.mp3"
+    },
+    {
+      "id": 33,
+      "label": "Bottom of Insight",
+      "en": "These wings are proper heavy. But, funny thing is, instead of draggin' me down, they help me fly easier.\nIs that what growin' up does, too? Like ... livin' in a bigger body, but flyin' even higher? Guess it's not as terrible as I thought.",
+      "zh": "这对翅膀让我变沉了，但飞起来时，我却变得更轻。\n如果“长大”就是把我装进更大更重的身体里，却可以飞得更高，那么“长大”可能也很好？",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_103.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_vo_skin/play_hero310504_fightingvoc_103.mp3"
+    },
+    {
+      "id": 34,
+      "label": "",
+      "en": "So the plan is: I'll catch the wind, and you'll catch me. Got it?",
+      "zh": "计划是——我来抓住风，你来抓住我，对吧？",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_105.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_105.mp3"
+    },
+    {
+      "id": 35,
+      "label": "",
+      "en": "Better keep your mouth shut if you don't want a mouthful of hair. But you can do a smile—like this!",
+      "zh": "如果你不想吃到头发，就别讲话。你可以笑一笑，像这样——",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_106.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_106.mp3"
+    },
+    {
+      "id": 36,
+      "label": "",
+      "en": "Oh, you want to take off your hat first? Right. I'd have done that too.",
+      "zh": "噢——看来你想先摘掉帽子，你是对的。",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_107.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_107.mp3"
+    },
+    {
+      "id": 37,
+      "label": "Enter",
+      "en": "Perfect landin'! No tables, chairs, or Vertin was knocked down! Hehe!",
+      "zh": "完美降落！既没有撞倒桌子，也没有撞倒椅子，更没有撞倒维尔汀！",
+      "audio": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_108.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero310504_mainvoc/play_hero310504_mainvoc_108.mp3"
+    }
+  ]
+}

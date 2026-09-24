@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Character Desktop</title>
+  <link rel="stylesheet" href="desktop.css">
+  <script src="cute/characters.js" defer></script>
+  <script src="narcissus-live2d.js" defer></script>
+  <script src="character-spine.js" defer></script>
+  <script src="face-capture.js" defer></script>
+  <script src="desktop.js" defer></script>
+</head>
+<body class="controls-hidden">
+  <main id="character" role="button" tabindex="0" aria-label="单击角色互动，按住拖动位置，右键显示或隐藏控制栏" title="单击互动 · 按住拖动 · 右键显示或隐藏控制栏"></main>
+  <div id="loading" role="status">正在准备桌面角色…</div>
+  <div id="capture-badge" hidden><span></span>摄像头动捕中 <button id="capture-stop" type="button">关闭</button></div>
+  <section id="subtitle" aria-live="polite" hidden>
+    <button id="voice-stop" type="button" aria-label="停止语音">停止</button>
+    <strong id="voice-label"></strong>
+    <p id="voice-zh"></p><p id="voice-en" lang="en"></p>
+  </section>
+  <footer class="toolbar">
+    <div class="identity"><span class="eyebrow">DESKTOP COMPANION</span><span id="character-name">纳西索斯 / Narcissus</span></div>
+    <button id="settings-toggle" type="button" aria-label="打开独立角色设置窗口" aria-expanded="false">设置</button>
+    <button id="hide" type="button" aria-label="隐藏到托盘" title="隐藏到托盘">隐藏</button>
+  </footer>
+  <section id="settings" aria-label="桌面角色设置" hidden>
+    <header><div><span class="eyebrow">YOUR LITTLE STUDIO</span><h1>桌面角色</h1></div><button id="settings-close" type="button" aria-label="关闭设置">收起</button></header>
+    <div id="settings-content">
+    <p class="intro">按住角色拖动位置，单击互动。右键显示控制栏，5 秒后自动隐藏。隐藏角色后可从系统托盘重新打开。</p>
+    <label for="character-select">角色 <span>CHARACTER</span></label>
+    <select id="character-select"></select>
+    <label for="skin-select">皮肤 <span>GARMENT</span></label>
+    <select id="skin-select"></select>
+    <div class="separator"></div>
+    <label for="size">桌面大小 <output id="size-value">100%</output></label>
+    <input id="size" type="range" min="70" max="150" step="5" value="100">
+    <label for="speed">动作与语音速度 <output id="speed-value">1×</output></label>
+    <input id="speed" type="range" min="0.25" max="3" step="0.25" value="1">
+    <label class="check"><input id="topmost" type="checkbox" checked>始终置顶</label>
+    <label class="check"><input id="voice-enabled" type="checkbox" checked>互动时允许语音</label>
+    <label class="check"><input id="auto-interact" type="checkbox">每分钟随机互动</label>
+    <div class="separator"></div>
+    <div class="capture-heading"><h2>摄像头动捕</h2><span class="local-tag">本地处理</span></div>
+    <p class="hint">头部转动、眨眼、张嘴。微笑与眉毛依皮肤支持；不是全身动捕。</p>
+    <button id="capture-toggle" class="primary" type="button" aria-pressed="false" aria-describedby="capture-status" disabled>开启摄像头动捕</button>
+    <p id="capture-status" class="hint" role="status">请等待角色加载。</p>
+    <video id="camera-preview" muted playsinline aria-label="摄像头镜像预览" hidden></video>
+    <button id="calibrate" type="button" hidden>校准正面姿态</button>
+    <p class="privacy">不上传、不录像、不使用麦克风。隐藏、切换皮肤或退出会释放摄像头；返回后需手动开启。</p>
+    <div class="separator"></div>
+    <p id="model-status" class="hint" role="status">模型加载中…</p>
+    <button id="retry" type="button" hidden>重新加载角色</button>
+    <button id="quit" class="quiet" type="button">退出桌面程序</button>
+    </div>
+  </section>
+  <button class="resize-handle nw" data-corner="nw" type="button" aria-label="拖动左上角缩放角色，方向键微调" title="拖动缩放"></button>
+  <button class="resize-handle ne" data-corner="ne" type="button" aria-label="拖动右上角缩放角色，方向键微调" title="拖动缩放"></button>
+  <button class="resize-handle sw" data-corner="sw" type="button" aria-label="拖动左下角缩放角色，方向键微调" title="拖动缩放"></button>
+  <button class="resize-handle se" data-corner="se" type="button" aria-label="拖动右下角缩放角色，方向键微调" title="拖动缩放"></button>
+  <audio id="voice" preload="none"></audio>
+</body>
+</html>

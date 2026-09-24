@@ -1,0 +1,277 @@
+{
+  "source": null,
+  "voices": [
+    {
+      "id": 0,
+      "label": "First Encounter",
+      "en": "Hello. Call me Flutterpage. I used to live in Millwall with my mum and dad and sister ...\nBut that don't matter no more, does it?",
+      "zh": "你好，我是纸信圈儿，我住在东伦敦的米尔沃尔，有父母和一个姐姐。\n——但这些已经不太重要了，对吗？",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_1.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_1.mp3"
+    },
+    {
+      "id": 1,
+      "label": "Suitcase Climate",
+      "en": "London's always changing its weather.\nMostly it's foggy, and so smokey it'll make your throat sore; then it rains a lot, which pains Mum's knees ...\nAnd sometimes—not too often—the sun comes out,\nthen everyone goes around sayin' \"Lovely weather we're having, isn't it?\"",
+      "zh": "天气有一点糟，天气没那么糟……\n雾对喉咙不好，雨对妈妈的膝盖不好，\n晴天坏处最少，\n但所有人会没完没了地讲“今天天气不错！”。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_2.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_2.mp3"
+    },
+    {
+      "id": 2,
+      "label": "To the Future",
+      "en": "I got a lot of questions, but most of 'em seems even the adults don't know.\nSo I suppose I best figure them out myself.",
+      "zh": "我有很多搞不懂的事，可大人也没有很明白。\n我最好还是按自己的办法来。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_3.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_3.mp3"
+    },
+    {
+      "id": 3,
+      "label": "Idle",
+      "en": "Hmm, she ain't lookin' at me, I don't think, just starin' off into space.\nCan she hear me right now? Hard to tell, she could be pretendin'.\nSometimes I act like I can't hear nothing when really I was listenin'.",
+      "zh": "不，我想她没有看我，她只是在发呆。\n……我不确定她有没有听见我讲话。\n我发呆时也常常假装没听见有人在喊我。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_4.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_4.mp3"
+    },
+    {
+      "id": 4,
+      "label": "Greetings",
+      "en": "A gust of wind from the door! I thought it was my arcane skill, but turns out it's you.",
+      "zh": "风！我以为是我的神秘术，原来是你。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_5.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_5.mp3"
+    },
+    {
+      "id": 5,
+      "label": "Morning",
+      "en": "I'm glad I woke you up.\nWithout a knocker-upper, people spend much too much time in bed and get themselves in a mess of trouble.",
+      "zh": "你醒来了。\n如果没有我叫人们起床，他们就很难醒过来，这是很危险、很严重的事情。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_6.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_6.mp3"
+    },
+    {
+      "id": 6,
+      "label": "Bond: Morning",
+      "en": "It's always trouble rightin' my hair in the morning. It gets knotted up with all my strips.\nI know I can untie the knots one by one, but it's such a pain. I usually just grab the scissors and go a choppin'.",
+      "zh": "我不太擅长应对早上，头发和碎布条总是趁我睡觉时打结……\n我有时候会花点时间慢慢地对付它们，更多时候会选择用剪刀。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_7.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_7.mp3"
+    },
+    {
+      "id": 7,
+      "label": "Night",
+      "en": "It's past time I went to bed, but I could wait just a bit longer ...\n'Cause I can't let you stay up too late, otherwise it'll be too hard to wake you up tomorrow.",
+      "zh": "嗨。我该去睡觉了，但是我可以再等你一会儿……\n我必须让你早点睡，这样明早我的叫醒工作才不会很困难。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_8.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_8.mp3"
+    },
+    {
+      "id": 8,
+      "label": "Bond: Night",
+      "en": "Fancy going out tonight?\nWe could climb up the bell tower and catch a bit of fresh air. The roof's sure to be stone cold and damp,\nbut we'll hear the insects chirpin' and dogs barkin'.\nIf the wind gets strong enough, I'll take you into the air and we can fly up through the clouds,\nWhen we get back, we can snuggle up to stay warm.",
+      "zh": "你想出去吗？\n爬上塔楼，石砖像乌龟壳一样又湿又凉，\n能听见虫子、狗，\n还有风，很大的风——我可以带你一起飞起来，\n直到衣角变潮，那时候我们就一起钻进被窝。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_9.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_9.mp3"
+    },
+    {
+      "id": 9,
+      "label": "Hat and Hair",
+      "en": "I like to cut my own hair.\nBut every time I done it, Mum always says I tangled it up so that it looks like a bird's nest ...\nCourse, she says it like it was a bad thing.",
+      "zh": "我会自己剪头。\n妈妈说它乱得像鸟巢——\n她总是用批评的语气说一些夸奖我的话。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_10.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_10.mp3"
+    },
+    {
+      "id": 10,
+      "label": "Sleeves and Hands",
+      "en": "This is a proper useful pole. It helps me hang clothes and wake up my clients.\nIt could even make for a handy slingshot—\nWell, maybe not so handy for me,\n'cause I'm too short to use it.",
+      "zh": "它很好用，可以晾干衣服，可以叫醒大家。\n它还很适合做弹弓，\n只是对我来说有些长——\n也许是我太矮了，不怪它。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_11.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_11.mp3"
+    },
+    {
+      "id": 11,
+      "label": "Clothing and Torso",
+      "en": "Someone said I ought to fold up my strips before puttin' them in my pockets,\nbut that don't make no sense, does it? What if I need them fast? I can't bother with unfolding them in a pinch.",
+      "zh": "有人说我应该把布条和小纸屑整理好再放进口袋，\n可是——那就和“穿衣前先把衣服叠整齐”一样，是完全没有道理的！",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_12.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_12.mp3"
+    },
+    {
+      "id": 12,
+      "label": "Hobby",
+      "en": "I feel like some questions ain't got no answers in mind, but that's fine, ain't it?\nJust like getting lost in the fog, sometimes you got to wander a bit before you find your way out.",
+      "zh": "我有一种感觉，好像有些问题永远没有答案，但这件事并不让我害怕。\n和在雾里一样，它会让人迷路，但其实哪里都可以走。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_13.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_13.mp3"
+    },
+    {
+      "id": 13,
+      "label": "Praise",
+      "en": "You're so cute when you nap on the sofa, all scrunched up like a little kitten.\nHuh?  Was I not supposed to look at you?\nWhat's the difference if you were sleepin'?",
+      "zh": "你睡觉时很可爱，会蜷成一团，像猫咪。\n我不能在你睡觉时看你吗？\n为什么现在看就可以？为什么观看与观看……也有区别？",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_14.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_14.mp3"
+    },
+    {
+      "id": 14,
+      "label": "Intimacy",
+      "en": "Mind if I follow you?\nOh, not that I ain't followin' you right now. I'm only standin' here to ask if you mind.",
+      "zh": "我可以跟着你吗？\n不，我现在还没跟着你呢，我只是站在这儿。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_15.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_15.mp3"
+    },
+    {
+      "id": 15,
+      "label": "Chitchat I",
+      "en": "I like to dive in the laundry basket to hide from my mum and dad,\nand you hide in the suitcase to avoid the \"Storm.\"\nNo worries about it. No shame runnin' from what we can't handle.",
+      "zh": "我藏进洗衣篮里避免挨骂，\n你藏进箱子里躲开时间。\n这都是一些我们暂时没办法处理的事情，躲起来并不丢脸。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_16.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_16.mp3"
+    },
+    {
+      "id": 16,
+      "label": "Chitchat II",
+      "en": "To \"die\" means the ones you love can't see you anymore.\nDon't matter much whether you're the one who leaves or the one left behind. You never get to see each other again.\nNow I'm so far away from home and never returnin' again ...\nDoes that mean I already \"died\" once?",
+      "zh": "“死掉”就是，再也见不到、找不到，\n遗弃所有人，或者被所有人遗弃。\n如果我离开家，离开原本的生活，并且再也回不去——\n我也算是“死”过一回了吗？",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_17.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_17.mp3"
+    },
+    {
+      "id": 17,
+      "label": "Monologue",
+      "en": "Each morning, I watch folks gettin' up through their window frames, then they come right back to them at night.\nJust like the old fairy tales, they all have the same beginning and the same end ...\nBut I ain't goin' to be like them, that's why I want to fly away—to find another end for my story.",
+      "zh": "人们在一个个窗框里醒来，晚上再回到框子里，没有例外。\n就像故事总是由“很久很久以前”开始，在“过上幸福生活”时结束。\n我不想被装进框子，所以我总是想……飞走。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_18.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_mainvoc/play_hero3105_mainvoc_18.mp3"
+    },
+    {
+      "id": 18,
+      "label": "Deployment",
+      "en": "Just ... stand with the others, like this then?",
+      "zh": "站在这里就可以了吗？",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_19.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_19.mp3"
+    },
+    {
+      "id": 19,
+      "label": "Pre-Battle",
+      "en": "Oh, I got it now.",
+      "zh": "噢，现在我明白了。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_20.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_20.mp3"
+    },
+    {
+      "id": 20,
+      "label": "Select Incantation I",
+      "en": "Just another shift.",
+      "zh": "早晨的工作。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_21.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_21.mp3"
+    },
+    {
+      "id": 21,
+      "label": "Select Incantation II",
+      "en": "It's what I'm good at!",
+      "zh": "我很熟练。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_22.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_22.mp3"
+    },
+    {
+      "id": 22,
+      "label": "Select 3-star Incantation",
+      "en": "The wind blows through you, and through me!",
+      "zh": "风吹过你，也吹过我——",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_23.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_23.mp3"
+    },
+    {
+      "id": 23,
+      "label": "Select Ultimate",
+      "en": "Yes, I got this, I can do it ...",
+      "zh": "我知道我可以——",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_24.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_24.mp3"
+    },
+    {
+      "id": 24,
+      "label": "Cast Arcane Skill I",
+      "en": "Up and at it!",
+      "zh": "醒一醒！",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_25.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_25.mp3"
+    },
+    {
+      "id": 25,
+      "label": "Cast Arcane Skill I",
+      "en": "Rise and shine!",
+      "zh": "该起床了！",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_26.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_26.mp3"
+    },
+    {
+      "id": 26,
+      "label": "Cast Arcane Skill II",
+      "en": "Laundry time!",
+      "zh": "家务时间！",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_27.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_27.mp3"
+    },
+    {
+      "id": 27,
+      "label": "Cast Arcane Skill II",
+      "en": "These sheets are my wings!",
+      "zh": "床单，翅膀——",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_28.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_28.mp3"
+    },
+    {
+      "id": 28,
+      "label": "Cast Ultimate",
+      "en": "Higher than the bell tower and even the clouds!",
+      "zh": "比塔楼还高，比云还高——",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_29.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_29.mp3"
+    },
+    {
+      "id": 29,
+      "label": "Attacked I",
+      "en": "Ouch!",
+      "zh": "疼！",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_30.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_30.mp3"
+    },
+    {
+      "id": 30,
+      "label": "Attacked II",
+      "en": "I don't get it ...",
+      "zh": "我不懂……",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_31.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_31.mp3"
+    },
+    {
+      "id": 31,
+      "label": "Battle Victory",
+      "en": "That weren't even as tough as waking up an old factory man!",
+      "zh": "我发现，这并不比叫人们起床更困难。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_32.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_32.mp3"
+    },
+    {
+      "id": 32,
+      "label": "Insight",
+      "en": "I've always got new questions poppin' up in my head,\njust like there's always more paper being put in my basket.\nHmm ... Do I got to learn maths so I can figure out why?",
+      "zh": "问题会在变少的同时变多，\n就像你送我的那筐纸条。\n这是个……数学问题？",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_34.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_34.mp3"
+    },
+    {
+      "id": 33,
+      "label": "Bottom of Insight",
+      "en": "I suppose I'm really more like a bed sheet than a bird.\nA sheet spends its entire life in three places:\nfirst, stuck in the laundry; second, snugglin' up in bed; and third, hangin' in the air on the clothesline.\nThe last one is my favorite place to be.",
+      "zh": "我不是鸟，而是一件衣服，\n一生拥有三种样子：\n在柜子里，在人们身边，在晾衣杆上。\n我最喜欢第三种。",
+      "audio": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_33.mp3",
+      "audioMp3": "cute/Flutterpage/Voice/audio/hero3105_vo/play_hero3105_fightingvoc_33.mp3"
+    }
+  ]
+}

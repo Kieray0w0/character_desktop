@@ -1,0 +1,277 @@
+{
+  "source": null,
+  "voices": [
+    {
+      "id": 0,
+      "label": "First Encounter",
+      "en": "The Mandelbrot set ...\nThat's right! It's just like the island! I'm a part of the set, just as I'm a part of the island.",
+      "zh": "一个曼德博集合……\n没错，和岛一样！这个集合里仍然有我的位置，就在我正站着的地方。",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_1.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_1.mp3"
+    },
+    {
+      "id": 1,
+      "label": "Suitcase Climate",
+      "en": "Raindrops never actually fall!\nThey are motionless at the instants of time which constitute the falling process.",
+      "zh": "实际上，雨从未落下。\n它们都是静止的，因为任何一滴雨在它的下坠过程中都有一个暂时的位置～",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_2.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_2.mp3"
+    },
+    {
+      "id": 2,
+      "label": "To the Future",
+      "en": "Everything in here and out there always leads to pure numbers and mathematics.\nIt's only a matter of time until I work out the equation which foretells the future ...\nHmm, the current assumption is ...",
+      "zh": "这里的和别处的一切，最终都会回到纯粹的数式之中。\n只是我还没能算出这个指向未来的式子……\n唔，目前的假设是……",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_3.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_3.mp3"
+    },
+    {
+      "id": 3,
+      "label": "Idle",
+      "en": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37 ...",
+      "zh": "二、三、五、七、十一、十三、十七、十九、二十三、二十九、三十一、三十七……",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_4.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_4.mp3"
+    },
+    {
+      "id": 4,
+      "label": "Greetings",
+      "en": "You're back.\nOf course you are, because this place is the \"origin\" ...",
+      "zh": "你回来了。\n当然，你总是要回到这儿的，因为这里是“原点”……",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_5.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_5.mp3"
+    },
+    {
+      "id": 5,
+      "label": "Morning",
+      "en": "Urrrrgh, I will not take another step closer to that table unless those brown bean juice drinkers leave first!",
+      "zh": "唔唔唔，在那些食用褐色豆子冲泡的古怪液体的家伙离开前，我绝不会靠近餐桌一步！",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_6.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_6.mp3"
+    },
+    {
+      "id": 6,
+      "label": "Bond: Morning",
+      "en": "No no, the scripture says, \"Make the bed as soon as you wake up, leaving no imprint of your body\" ...\nDon't worry. Stay where you are. I'll do it for you!",
+      "zh": "不不，教典说，当你离开床褥时，要把它卷起，再把睡过的印迹抹平……\n没关系，你就呆在那儿，我来帮你！",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_7.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_7.mp3"
+    },
+    {
+      "id": 7,
+      "label": "Night",
+      "en": "These people next door are really noisy. Could you please tell them to quiet down?\nThese \"Romans\" have disturbed my circles!",
+      "zh": "住在我隔壁的房客太吵了。可以让他们消停一些么？\n这些“罗马人”把我的圆都搅乱了……！",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_8.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_8.mp3"
+    },
+    {
+      "id": 8,
+      "label": "Bond: Night",
+      "en": "Thank you, Vertin. The rate at which you swing the suitcase is the same as that of the waves hitting the coast.\nI had a very good sleep.",
+      "zh": "感谢你，维尔汀，你晃动箱子的频率和海浪拍岸完全一致。\n我睡得好极了。",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_9.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_9.mp3"
+    },
+    {
+      "id": 9,
+      "label": "Hat and Hair",
+      "en": "What? You mean ... there's an orestias in my hair?\nThat can't be true ... Show me!",
+      "zh": "什么？你是说……我的头发里有条奥勒什蒂鱼？\n这怎么可能呢……快给我看看！",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_10.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_10.mp3"
+    },
+    {
+      "id": 10,
+      "label": "Sleeves and Hands",
+      "en": "People all over the world have adopted the decimal system by coincidence. See, this is why.",
+      "zh": "世界各地的人类不约而同地采取了十进制。瞧，这就是原因。",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_11.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_11.mp3"
+    },
+    {
+      "id": 11,
+      "label": "Clothing and Torso",
+      "en": "That's right! This is my body, my little jar. It's made of flesh and bones.\nWe can temporarily entrust it with our well-proportioned geometric structures.",
+      "zh": "没错，这是我的小罐子。肉和骨头组成的小罐子，\n尽管是暂时的，但它总能很好地安放我们均匀的几何体。",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_12.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_12.mp3"
+    },
+    {
+      "id": 12,
+      "label": "Hobby",
+      "en": "Well ... I'm not very fond of the word \"hobby.\"\nIt sounds like something you would give up easily, something that doesn't last.",
+      "zh": "唔……我不太喜欢“嗜好”这个词，\n它听起来像是某种可以轻易放弃的、短暂的东西。",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_13.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_13.mp3"
+    },
+    {
+      "id": 13,
+      "label": "Praise",
+      "en": "You are making progress in life, Vertin, just like how zero developed throughout history.\nAt first it was just a placeholder,\nthen it became irreplaceable,\nand now it serves as the origin of coordinates.",
+      "zh": "维尔汀，你也在进步，就像“0”的进化史一样。\n曾经“0”只是一个占位符，\n渐渐地，它变成了一个不可或缺的数字，\n再后来，它成为了坐标系的中心。",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_14.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_14.mp3"
+    },
+    {
+      "id": 14,
+      "label": "Intimacy",
+      "en": "Check the answer for me ...\nNo way! This book is wrong ... My calculation says otherwise!",
+      "zh": "快帮我看看答案……\n不可能！这本书犯了错误……我算出的明明是另一个结果！",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_15.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_15.mp3"
+    },
+    {
+      "id": 15,
+      "label": "Chitchat I",
+      "en": "See, here we have rectangular frames, rectangular cabinets, rectangular windows ...\nVertin, haven't you realized? This is a serious abuse of rectangles!\nYou should use more triangles in the suitcase, for they are the most stable structure.",
+      "zh": "瞧瞧，我们这有矩形的画框，矩形的柜子，矩形的窗户……\n维尔汀，你还没意识到吗？矩形被滥用了！\n你应该多加一些三角形，它们才是更稳定的图形～",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_16.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_16.mp3"
+    },
+    {
+      "id": 16,
+      "label": "Chitchat II",
+      "en": "I tried to talk to Ms. Centurion, but as soon as she tossed that coin, I felt dizzy and passed out.\nIt makes no sense, I mean, her luck completely overturns the probability theory ...",
+      "zh": "我尝试和百夫长小姐对话，但她一抛出那枚金币，我就晕了过去。\n这太无理了，我是说，她的运气，这完全不符合数学规律……",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_17.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_17.mp3"
+    },
+    {
+      "id": 17,
+      "label": "Monologue",
+      "en": "The proof, once found, is irrevocable.\nBut sometimes, when I sit on the coast where my mother rests,\nI can hear the waves wash against the edges of her geometric body,\nwhich reminds me of her transient voice before she left the world of Matters.",
+      "zh": "证明一旦完成便是永恒的。\n但偶尔，我坐在海滩上，\n聆听母亲的棱边被海浪冲刷，发出不变的空响时，\n我会怀念那道现象世界的短促气音。",
+      "audio": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_18.mp3",
+      "audioMp3": "cute/37/Voice/audio/mainvoc_hero3066/play_hero3066_mainvoc_18.mp3"
+    },
+    {
+      "id": 18,
+      "label": "Deployment",
+      "en": "And now, I belong to this set.",
+      "zh": "现在，这个集合包含了我。",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_19.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_19.mp3"
+    },
+    {
+      "id": 19,
+      "label": "Pre-Battle",
+      "en": "Who ate beans?",
+      "zh": "谁吃了豆子？",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_20.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_20.mp3"
+    },
+    {
+      "id": 20,
+      "label": "Select Incantation I",
+      "en": "Given that ...",
+      "zh": "已知……",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_21.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_21.mp3"
+    },
+    {
+      "id": 21,
+      "label": "Select Incantation II",
+      "en": "It could be found ...",
+      "zh": "易得……",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_22.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_22.mp3"
+    },
+    {
+      "id": 22,
+      "label": "Select 3-star Incantation",
+      "en": "A perfect argument!",
+      "zh": "绝佳的论据！",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_23.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_23.mp3"
+    },
+    {
+      "id": 23,
+      "label": "Select Ultimate",
+      "en": "The final demonstration.",
+      "zh": "最终的证明。",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_24.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_24.mp3"
+    },
+    {
+      "id": 24,
+      "label": "Cast Arcane Skill I",
+      "en": "The Form ... is above all!",
+      "zh": "本质……胜过一切！",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_25.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_25.mp3"
+    },
+    {
+      "id": 25,
+      "label": "Cast Arcane Skill I",
+      "en": "Intersect and divide!",
+      "zh": "相交……然后切割！",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_26.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_26.mp3"
+    },
+    {
+      "id": 26,
+      "label": "Cast Arcane Skill II",
+      "en": "Are you irrational numbers?",
+      "zh": "你们是无理数吗？",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_27.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_27.mp3"
+    },
+    {
+      "id": 27,
+      "label": "Cast Arcane Skill II",
+      "en": "Time to check my calculation!",
+      "zh": "验算时间～",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_28.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_28.mp3"
+    },
+    {
+      "id": 28,
+      "label": "Cast Ultimate",
+      "en": "Welcome to the world of numbers.",
+      "zh": "欢迎来到数的世界。",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_29.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_29.mp3"
+    },
+    {
+      "id": 29,
+      "label": "Attacked I",
+      "en": "Irrational!",
+      "zh": "无理！",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_30.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_30.mp3"
+    },
+    {
+      "id": 30,
+      "label": "Attacked II",
+      "en": "How troublesome ...",
+      "zh": "真头疼……",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_31.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_31.mp3"
+    },
+    {
+      "id": 31,
+      "label": "Battle Victory",
+      "en": "Victory?\nOkay, but what does it mean to us?\nI mean, what does it prove?",
+      "zh": "胜利？\n好吧，可这又意味着什么呢？\n我是说，它证明了什么呢？",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_32.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_32.mp3"
+    },
+    {
+      "id": 32,
+      "label": "Insight",
+      "en": "The next quadrant.",
+      "zh": "下一个象限。",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_34.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_34.mp3"
+    },
+    {
+      "id": 33,
+      "label": "Bottom of Insight",
+      "en": "The shape of truth is not fixed. Anyone who tries to figure it out is doomed to get lost on their way.\nSo I decide to draw the one I assume ... but just to get it out of my mind.",
+      "zh": "真理并没有固定的外壳，任何试图描绘它形状的人，都会坠入其中。\n因此我试着画出来……为了更好地忘掉它。",
+      "audio": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_33.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero3066_skill/play_hero3066_fightingvoc_33.mp3"
+    }
+  ]
+}

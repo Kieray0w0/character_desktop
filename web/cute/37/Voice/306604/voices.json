@@ -1,0 +1,309 @@
+{
+  "source": null,
+  "voices": [
+    {
+      "id": 0,
+      "label": "Lobby Entrance",
+      "en": "As expected, the calculations show that differences in form don't change the essence of the cave,\njust as the shifting of shadows doesn't alter the nature of things.",
+      "zh": "验算的结果正如预想，不同的景色并不会改变洞穴的本质，\n就像投影的交替并不会改变事物本身。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_93.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_93.mp3"
+    },
+    {
+      "id": 1,
+      "label": "First Encounter",
+      "en": "Oh, a new cave!\nAnd look at all these familiar angles and curves—just perfect for some elaborate calculations!",
+      "zh": "一个全新的洞穴！\n还有这些似曾相识的角度与曲线，我可以在这儿进行一些推论的验算！",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_55.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_55.mp3"
+    },
+    {
+      "id": 2,
+      "label": "Suitcase Climate",
+      "en": "The daylight here reminds me of the island.\nIt's so bright, as if it could pass straight through my brain and project the answers from my mind onto the lake's surface ...",
+      "zh": "这里的天光和岛上的很相似，\n它好像能透过我的颅骨与思维，将答案映射在水面上……",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_56.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_56.mp3"
+    },
+    {
+      "id": 3,
+      "label": "To the Future",
+      "en": "Over-ambition often leads to calculation errors, so it's best to start with a modest objective.\nInstead of searching for a perfect, timeless equation,\naim for one that solves problems for ... a decade? Or a year, perhaps?",
+      "zh": "也许过大的目标会导致逻辑上的越界，所以我们需要把目标放小，\n比起回归纯粹的数式，\n我们应该先求出能导向十年后的式子……又或者一年后？",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_57.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_57.mp3"
+    },
+    {
+      "id": 4,
+      "label": "Idle",
+      "en": "Are you trying to enter a state of stillness?\nThat's mathematically impossible,\nconsidering you're constantly rising relative to the droplets falling in my cave.",
+      "zh": "你在尝试进入静止状态么？\n那是不可能的，\n比如对于那些下落的雨滴来说，你和整个世界都在不断上升。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_58.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_58.mp3"
+    },
+    {
+      "id": 5,
+      "label": "Greetings",
+      "en": "Ah, Vertin! You've come at just the right time!\nKeeping these colorful swallows in the room is a violation of the—\nOh? They're not swallows? Well, in that case, I suppose it's fine ...",
+      "zh": "你来得正好，维尔汀！\n这些彩色的燕子待在房间里违反了……\n嗯？不是燕子？好吧，如果这两者没有交集的话……",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_59.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_59.mp3"
+    },
+    {
+      "id": 6,
+      "label": "Morning",
+      "en": "You mean coffee beans aren't technically beans, even though they're named as such?\nNo-no-no, I can't accept this! I've got to verify this absurd theory for myself.",
+      "zh": "你是说咖啡豆虽然长得像豆子，但并不是豆科的子集？\n……不，在我验证过这个假说之前，我不会接受咖啡的。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_60.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_60.mp3"
+    },
+    {
+      "id": 7,
+      "label": "Bond: Morning",
+      "en": "Recently, I've noticed that your post-wake-up bed-lounging time is nearing zero!\nNow that you've freed up your mornings, I'd be delighted to teach you how to accurately make your bed.",
+      "zh": "我观察了你近期醒来后仍待在床上的时间，它们正在无限趋近于零！\n很快你就会有足够的晨间空闲来学习收拾床褥了。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_61.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_61.mp3"
+    },
+    {
+      "id": 8,
+      "label": "Night",
+      "en": "All caves share certain similarities.\nThe sound of water hitting the rocks resonates differently, yes,\nbut they create patterns that confirm the Pythagorean interval theory.",
+      "zh": "每个洞穴都有着一定相似性。\n虽然水流拍打声并不相同，\n但都有其规律，这可以用来验证毕氏音程的合理性。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_62.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_62.mp3"
+    },
+    {
+      "id": 9,
+      "label": "Bond: Night",
+      "en": "Maybe I'll leave a door open for you too, Vertin.\nThat way, you can always come visit me, day or night.",
+      "zh": "我在考虑给我的房间加一扇小门，\n这样你就不管多晚都可以来访了。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_63.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_63.mp3"
+    },
+    {
+      "id": 10,
+      "label": "Hat and Hair",
+      "en": "I've noticed that birds seem to like it here, especially these colorful ones.\nMaybe I should get a hat like yours for them to perch on.",
+      "zh": "我发现很多鸟儿都喜欢这里，特别是那些彩色鸟儿，\n也许我可以像你一样戴一顶帽子供它们休息。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_64.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_64.mp3"
+    },
+    {
+      "id": 11,
+      "label": "Sleeves and Hands",
+      "en": "I heard that the world outside the island has a variety of handshaking customs. Is that true?\nHmm ... you're not from the island—how about we shake hands and find out?",
+      "zh": "听我说，维尔汀，世界各地似乎有不同的握手礼仪。\n也许……我们可以做一次交叉验证的尝试？",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_65.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_65.mp3"
+    },
+    {
+      "id": 12,
+      "label": "Clothing and Torso",
+      "en": "Sometimes numbers reside in geometry, and now geometry has made its home on my clothes ...\nHmm, so in a way, geometry can reside in numbers, too.",
+      "zh": "几何有时是数字的居所，而几何又栖居在我的衣服上……\n嗯，所以数字也可以是几何的居所。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_66.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_66.mp3"
+    },
+    {
+      "id": 13,
+      "label": "Hobby",
+      "en": "I mentioned before that I'm not fond of things that don't last or are given up easily.\nWell, I've decided ice cream might be an exception. Or maybe not ... I'm not sure I really want to stop eating it.",
+      "zh": "我现在是否有了可以轻易放弃的、短暂的，但是又喜爱的东西？\n也许冰淇淋？但我不确定我是否会放弃它……",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_67.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_67.mp3"
+    },
+    {
+      "id": 14,
+      "label": "Praise",
+      "en": "Though our methods and reasoning differ, we're both striving to clear the mists that shroud the phenomenal world.\nI'm eager to hear your hypothesis, Vertin.",
+      "zh": "虽然推论过程有些不同，但我们都在试着驱散笼罩现象世界的迷雾，\n我很期待你提出的论点，维尔汀。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_68.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_68.mp3"
+    },
+    {
+      "id": 15,
+      "label": "Intimacy",
+      "en": "If you're ever struggling to solve a problem, Vertin, come to me at any time.\nNo need to rack your brain alone; I'd be more than happy to help!",
+      "zh": "如果你有解不开的问题，就来找我，维尔汀。\n一个人思考很容易陷入逻辑的漩涡。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_69.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_69.mp3"
+    },
+    {
+      "id": 16,
+      "label": "Chitchat I",
+      "en": "I had the most delightfully insightful chat with that lady you mentioned who speaks in hexadecimal!\nShe really is an amazing number!",
+      "zh": "我见过了你说的那位用十六进制交谈的小姐，还进行了一些深刻的讨论，那真是一次愉快的交谈！\n她确实有一个很奇妙的数字！",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_70.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_70.mp3"
+    },
+    {
+      "id": 17,
+      "label": "Chitchat II",
+      "en": "Water is a brilliant medium that links numbers and forms.\nWe can use it to calibrate temperature, mass, volume ... the list goes on!",
+      "zh": "水是连接数字和现象的一种优良介质，\n我们可以用水来设定温度、质量、体积，等等等等。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_71.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_71.mp3"
+    },
+    {
+      "id": 18,
+      "label": "Monologue",
+      "en": "Chaos is just a pattern we haven't figured out yet; we can still find the Truth within it!\nAnd should more chaos arise, we'll just keep crunching numbers until we uncover an absolute rule!\nMaybe once all the chaos is sorted, Sophia can return as my Corrector, and as my friend ...",
+      "zh": "真理的紊乱只是仍未理解的规律，我们可以找出其中的真理！\n而如果还有漏洞，我们就继续下去，直到归纳出一个可以验证的规律！\n我希望等我们总结出一切规律后，苏菲亚能为我除错，就像以前那样……",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_72.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_72.mp3"
+    },
+    {
+      "id": 19,
+      "label": "Deployment",
+      "en": "I'm glad to count you in my set.",
+      "zh": "欢迎加入我的集合。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_73.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_73.mp3"
+    },
+    {
+      "id": 20,
+      "label": "Pre-Battle",
+      "en": "Time to verify my new hypothesis.",
+      "zh": "我恰好有一个新猜想。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_74.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_74.mp3"
+    },
+    {
+      "id": 21,
+      "label": "Select Incantation I",
+      "en": "The connection between numbers.",
+      "zh": "数量的关系。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_75.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_75.mp3"
+    },
+    {
+      "id": 22,
+      "label": "Select Incantation II",
+      "en": "Form, space, and order.",
+      "zh": "空间的形式。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_76.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_76.mp3"
+    },
+    {
+      "id": 23,
+      "label": "Select 3-star Incantation",
+      "en": "We have reached a preliminary conclusion.",
+      "zh": "我们有了初步结论。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_77.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_77.mp3"
+    },
+    {
+      "id": 24,
+      "label": "Select Ultimate",
+      "en": "From beneath the water, the answer surfaces ...",
+      "zh": "答案跃于水面……",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_78.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_78.mp3"
+    },
+    {
+      "id": 25,
+      "label": "Cast Arcane Skill I",
+      "en": "I've confirmed that this adheres to the precepts.",
+      "zh": "戒律没说不可以。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_79.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_79.mp3"
+    },
+    {
+      "id": 26,
+      "label": "Cast Arcane Skill I",
+      "en": "Fly, my numerical friends!",
+      "zh": "数字伙伴。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_80.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_80.mp3"
+    },
+    {
+      "id": 27,
+      "label": "Cast Arcane Skill II",
+      "en": "The golden ratio!",
+      "zh": "黄金比例！",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_81.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_81.mp3"
+    },
+    {
+      "id": 28,
+      "label": "Cast Arcane Skill II",
+      "en": "Behold the phenomenal world!",
+      "zh": "引用自现象世界的攻击！",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_82.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_82.mp3"
+    },
+    {
+      "id": 29,
+      "label": "Cast Ultimate",
+      "en": "Fluidity and fluctuation—a hypothesis of Truth.",
+      "zh": "流动与变化，真理的另一种假设。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_83.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_83.mp3"
+    },
+    {
+      "id": 30,
+      "label": "Attacked I",
+      "en": "Incomprehensible!",
+      "zh": "难以理解！",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_84.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_84.mp3"
+    },
+    {
+      "id": 31,
+      "label": "Attacked II",
+      "en": "Incorrect ...",
+      "zh": "错误的……",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_85.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_85.mp3"
+    },
+    {
+      "id": 32,
+      "label": "Battle Victory",
+      "en": "Yet another proof nearing perfection.",
+      "zh": "又一项趋于完满的证明。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_86.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_86.mp3"
+    },
+    {
+      "id": 33,
+      "label": "Insight",
+      "en": "A newfound set!",
+      "zh": "一个崭新的集合。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_88.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_88.mp3"
+    },
+    {
+      "id": 34,
+      "label": "Bottom of Insight",
+      "en": "Numbers are the nature of all things. They remain constant, unaffected by forms or feelings.\nSo, I'll always be me, the same way 37 will always be 37—unchanging and eternal.",
+      "zh": "数字是万事万物的本质，不管五官如何感知，外在如何更替，它始终不变。\n因此我依然是我，37依然还是37，不会改变。",
+      "audio": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_87.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_vo_skin/play_hero306604_fightingvoc_87.mp3"
+    },
+    {
+      "id": 35,
+      "label": "Lobby Interaction 1",
+      "en": "Is the blue bird essentially different from the red one?\nIt doesn't seem to like perching on my palm.",
+      "zh": "一只蓝色的鸟儿，跟红色这一只有什么区别吗？\n它似乎并不喜欢停在我的手掌上。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_89.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_89.mp3"
+    },
+    {
+      "id": 36,
+      "label": "Lobby Interaction 2",
+      "en": "Friendship begins with getting to know each other.\nYou two have similar natures.\nI think you'll become fast friends.\nEveryone has different aspirations.\nSome have left the island, like fledglings leave their nests.\nI hope I can see them again one day.",
+      "zh": "朋友总是从了解彼此开始。\n事实是，你们拥有相似的本质，\n应该成为一对好朋友。\n每个人都有不同的向往。\n有人会离开海岛，鸟儿也不会一直停留。\n希望下次我们还能再见。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_90.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_90.mp3"
+    },
+    {
+      "id": 37,
+      "label": "Lobby Interaction 3",
+      "en": "Oh, it flew away. Did it feel uncomfortable here?\nI thought all roosting places were fundamentally the same ...\nMaybe I really do need a hat.",
+      "zh": "它飞走了，难道待在这里让它感到不自在吗？\n我以为每个落脚点都没有什么不同……\n也许我真的需要一顶帽子。",
+      "audio": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_92.mp3",
+      "audioMp3": "cute/37/Voice/audio/hero306604_mainvoc/play_hero306604_mainvoc_92.mp3"
+    }
+  ]
+}
